@@ -4,8 +4,6 @@ set -e # Exit immediately if any command fails
 echo "--- Sa2VA Project Setup Script ---"
 echo "This script will create the venv, pretrained, and data folders."
 echo "This requires 'python3.11' to be available on your system."
-echo "Press Enter to begin..."
-read
 
 # --- 1. VENV SETUP ---
 echo "[1/3] Setting up Python virtual environment..."
