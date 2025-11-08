@@ -1,5 +1,3 @@
-Sa2VA Fine-Tuning on Ref-COCO
-This repository provides a pre-configured setup for fine-tuning the Sa2VA model. The project is specifically configured to train on the Ref-COCO dataset, and all setup steps are automated via a single script.
 This guide assumes you are on a Linux-based system with an NVIDIA GPU.
 Quick Start
 Prerequisites
@@ -28,11 +26,8 @@ Download Models: Downloads the SAM2-Hiera and InternVL3-2B models into the pretr
 Download & Process Data: Downloads the Ref-COCO dataset from Hugging Face and runs the convert_to_format.py script to prepare it for training.
 This step will take a significant amount of time, as it downloads several gigabytes of models and data.
 3. Start Fine-Tuning
-Once the setup is complete, activate the virtual environment and start the training process:
-# 1. Activate the environment
-source venv/bin/activate
+Once the setup is complete, start the training process:
 
-# 2. Run the training script
 bash tools/dist.sh train projects/sa2va/configs/my_finetune.py 1
 
 
