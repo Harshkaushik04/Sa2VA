@@ -1,6 +1,6 @@
 Guide to start finetuning on Ref-coco dataset(run these commands):
 
-git clone https://github.com/Harshkaushik04/Sa2VA.git
+git clone [https://github.com/Harshkaushik04/Sa2VA.git](https://github.com/Harshkaushik04/Sa2VA.git)
 
 cd Sa2VA
 
