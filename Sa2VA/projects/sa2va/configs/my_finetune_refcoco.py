@@ -23,19 +23,13 @@ from projects.sa2va.datasets.data_utils import ConcatDatasetSa2VA
 from projects.sa2va.models.mllm.qwenvl import Qwen2_5_VL
 from projects.sa2va.models.mllm.qwen3vl import Qwen3VL
 
-# --- REMOVED DYNAMIC PATHS ---
-
-
 #######################################################################
 #                          PART 1  Settings                           #
 #######################################################################
 # Model
 path = "OpenGVLab/InternVL3-2B"
-# --- PATHS CORRECTED: Use relative paths as static strings ---
-# The script is run from the project root, so this works.
-pretrained_pth = './pretrained/Sa2VA-InternVL3-2B.pth'
-# -----------------------------------------------------------
-
+# --- CHANGED: Generalized path ---
+pretrained_pth = "./pretrained/Sa2VA-InternVL3-2B.pth" # You need to change this path
 # Data
 template = "qwen_chat"
 prompt_template = PROMPT_TEMPLATE.qwen_chat
@@ -118,9 +112,7 @@ model = dict(
 #                      PART 3  Dataset & Dataloader                   #
 #######################################################################
 
-# --- PATHS CORRECTED: Use relative paths as static strings ---
 DATA_ROOT = './data/'
-# -----------------------------------------------------------
 
 # this is for datasets with masks
 sa2va_default_dataset_configs=dict(
@@ -211,7 +203,7 @@ optim_wrapper = dict(
 )
 
 # learning policy
-# More information: https://github.com/open-mmlab/mmengine/blob/main/docs/en/tutorials/param_scheduler.md  # noqa: E_501
+# More information: https://github.com/open-mmlab/mmengine/blob/main/docs/en/tutorials/param_scheduler.md  # noqa: E501
 param_scheduler = [
     dict(
         type=LinearLR,
