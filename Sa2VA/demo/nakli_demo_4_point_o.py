@@ -7,6 +7,7 @@ import torch
 import cv2
 import numpy as np
 import spacy
+import re
 
 # --------------------------
 # Load NLP
@@ -20,12 +21,32 @@ except:
 
 
 # --------------------------
-# Extract nouns from text
+# Extract nouns (ROBUST)
 # --------------------------
 def extract_nouns(sentence):
+    # Remove <image> completely
+    sentence = re.sub(r"<\\s*image\\s*>", "", sentence, flags=re.IGNORECASE).strip()
+
     doc = NLP_PARSER(sentence)
-    nouns = [chunk.root.text.lower() for chunk in doc.noun_chunks]
-    return list(dict.fromkeys(nouns))  # unique order
+
+    nouns = []
+
+    # noun chunks (phrases)
+    for chunk in doc.noun_chunks:
+        nouns.append(chunk.root.text.lower())
+
+    # add individual NOUN/PROPN tokens
+    for tok in doc:
+        if tok.pos_ in ("NOUN", "PROPN"):
+            nouns.append(tok.text.lower())
+
+    # clean duplicates
+    nouns = list(dict.fromkeys(nouns))
+
+    # remove garbage
+    nouns = [n for n in nouns if n not in ("image",)]
+
+    return nouns
 
 
 # --------------------------
@@ -64,18 +85,17 @@ if __name__ == "__main__":
     cfg = parse_args()
     os.makedirs(cfg.work_dir, exist_ok=True)
 
-    # Ask user image or video output
     print("\nChoose output type:")
     print("1 = Single Image Output")
     print("2 = Video Output")
     mode = input("Enter choice (1 or 2): ").strip()
 
     if mode not in ["1", "2"]:
-        print("Invalid input. Choose 1 or 2.")
+        print("Invalid input.")
         exit()
 
     # --------------------------
-    # Load model in 4-bit
+    # Load model (4-bit)
     # --------------------------
     print("\nLoading model...")
     quant = BitsAndBytesConfig(
@@ -100,18 +120,15 @@ if __name__ == "__main__":
     image_paths = sorted([
         os.path.join(cfg.image_folder, f)
         for f in os.listdir(cfg.image_folder)
-        if os.path.splitext(f)[1].lower() in {".jpg",".jpeg",".png",".bmp",".tiff"}
+        if os.path.splitext(f)[1].lower() in {".jpg", ".jpeg", ".png", ".bmp", ".tiff"}
     ])
     vid_frames = [Image.open(p).convert("RGB") for p in image_paths]
-
     print(f"\nLoaded {len(vid_frames)} frames.\n")
 
     # --------------------------
-    # Clean text & extract nouns
+    # Extract nouns
     # --------------------------
-    clean_text = cfg.text.replace("<image>", "").strip()
-    nouns = extract_nouns(clean_text)
-
+    nouns = extract_nouns(cfg.text)
     print("Extracted nouns:", nouns)
 
     if len(nouns) < 2:
@@ -119,27 +136,27 @@ if __name__ == "__main__":
         exit()
 
     obj1, obj2 = nouns[0], nouns[1]
+
     print("\nObject 1 =", obj1)
     print("Object 2 =", obj2, "\n")
 
-    COLOR1 = (0,255,0)   # green
-    COLOR2 = (0,0,255)   # red
+    COLOR1 = (0,255,0)
+    COLOR2 = (0,0,255)
 
     # --------------------------
-    # Relation Mode ALWAYS ON:
-    # "associated with" logic
+    # Relation prompts
     # --------------------------
     prompt1 = (
         f"<image> Segment ONLY the {obj1} associated with the {obj2}. "
         f"Do NOT segment any other {obj1}s. "
-        f"Choose the {obj1} who is closest to or interacting with the {obj2}. "
+        f"Choose the {obj1} closest to or interacting with the {obj2}. "
         f"Highlight ONLY that specific {obj1}."
     )
 
     prompt2 = (
         f"<image> Segment ONLY the {obj2} associated with the {obj1}. "
         f"Do NOT segment any other {obj2}s. "
-        f"Choose the {obj2} that is closest to or interacted with by the {obj1}. "
+        f"Choose the {obj2} closest to or interacted with by the {obj1}. "
         f"Highlight ONLY that specific {obj2}."
     )
 
@@ -147,87 +164,55 @@ if __name__ == "__main__":
     print("Prompt2:", prompt2)
 
     # --------------------------
-    # Run 1 — person (or obj1)
+    # Run segmentation for obj1
     # --------------------------
     if cfg.select > 0:
         frame = vid_frames[cfg.select - 1]
-        res1 = model.predict_forward(
-            image=frame,
-            text=prompt1,
-            tokenizer=tokenizer
-        )
-        frame_list = [cfg.select - 1]
+        res1 = model.predict_forward(image=frame, text=prompt1, tokenizer=tokenizer)
+        frames_to_process = [cfg.select - 1]
     else:
-        res1 = model.predict_forward(
-            video=vid_frames,
-            text=prompt1,
-            tokenizer=tokenizer
-        )
-        frame_list = range(len(vid_frames))
-
+        res1 = model.predict_forward(video=vid_frames, text=prompt1, tokenizer=tokenizer)
+        frames_to_process = range(len(vid_frames))
     mask1_set = res1["prediction_masks"][0]
 
     # --------------------------
-    # Run 2 — guitar (or obj2)
+    # Run segmentation for obj2
     # --------------------------
     if cfg.select > 0:
         frame = vid_frames[cfg.select - 1]
-        res2 = model.predict_forward(
-            image=frame,
-            text=prompt2,
-            tokenizer=tokenizer
-        )
+        res2 = model.predict_forward(image=frame, text=prompt2, tokenizer=tokenizer)
     else:
-        res2 = model.predict_forward(
-            video=vid_frames,
-            text=prompt2,
-            tokenizer=tokenizer
-        )
-
+        res2 = model.predict_forward(video=vid_frames, text=prompt2, tokenizer=tokenizer)
     mask2_set = res2["prediction_masks"][0]
 
-    # ======================================================
-    #                 IMAGE OUTPUT MODE
-    # ======================================================
+    # --------------------------
+    # IMAGE output
+    # --------------------------
     if mode == "1":
-        idx = list(frame_list)[0]
+        idx = list(frames_to_process)[0]
         img = cv2.imread(image_paths[idx])
 
-        img_green, m1 = apply_mask_color(img, mask1_set[idx], COLOR1)
-        img_red,   m2 = apply_mask_color(img, mask2_set[idx], COLOR2)
-
-        combined = img_green.copy()
-        combined[m2 == 1] = img_red[m2 == 1]
+        img1, m1 = apply_mask_color(img, mask1_set[idx], COLOR1)
+        img2, m2 = apply_mask_color(img1, mask2_set[idx], COLOR2)
 
         out_path = os.path.join(cfg.work_dir, "combined_output.png")
-        cv2.imwrite(out_path, combined)
+        cv2.imwrite(out_path, img2)
 
-        print(f"\n✔ Single image saved at: {out_path}\n")
+        print(f"\n✔ Saved: {out_path}\n")
         exit()
 
-    # ======================================================
-    #                 VIDEO OUTPUT MODE
-    # ======================================================
-    if mode == "2":
-        h, w, _ = cv2.imread(image_paths[0]).shape
+    # --------------------------
+    # VIDEO output
+    # --------------------------
+    h, w, _ = cv2.imread(image_paths[0]).shape
+    video_out = os.path.join(cfg.work_dir, "combined_output_video.mp4")
+    writer = cv2.VideoWriter(video_out, cv2.VideoWriter_fourcc(*"mp4v"), 10, (w, h))
 
-        video_path = os.path.join(cfg.work_dir, "combined_output_video.mp4")
-        writer = cv2.VideoWriter(
-            video_path,
-            cv2.VideoWriter_fourcc(*"mp4v"),
-            10,
-            (w, h)
-        )
+    for idx in frames_to_process:
+        img = cv2.imread(image_paths[idx])
+        img1, m1 = apply_mask_color(img, mask1_set[idx], COLOR1)
+        img2, m2 = apply_mask_color(img1, mask2_set[idx], COLOR2)
+        writer.write(img2)
 
-        for idx in frame_list:
-            img = cv2.imread(image_paths[idx])
-            img_green, m1 = apply_mask_color(img, mask1_set[idx], COLOR1)
-            img_red,   m2 = apply_mask_color(img, mask2_set[idx], COLOR2)
-
-            combined = img_green.copy()
-            combined[m2 == 1] = img_red[m2 == 1]
-
-            writer.write(combined)
-
-        writer.release()
-        print(f"\n✔ Video saved at: {video_path}\n")
+    writer.release()
+    print(f"\n✔ Video saved: {video_out}\n")

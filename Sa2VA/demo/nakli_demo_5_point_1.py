@@ -1,234 +1,226 @@
 import argparse
 import os
+import json
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from PIL import Image
 import torch
 import cv2
 import numpy as np
 
-# =========================================================
-# LOAD QWEN 2.5 FOR NOUN EXTRACTION
-# =========================================================
-print("Loading Qwen 2.5 noun extractor...")
+# ------------------------------
+# Qwen model
+# ------------------------------
 QWEN_MODEL = "Qwen/Qwen2.5-0.5B-Instruct"
-
+print("Loading Qwen tokenizer & model (CPU) for prompt splitting...")
 qwen_tokenizer = AutoTokenizer.from_pretrained(QWEN_MODEL, trust_remote_code=True)
 qwen_model = AutoModelForCausalLM.from_pretrained(QWEN_MODEL, device_map="cpu", trust_remote_code=True)
+qwen_model.eval()
 
-def qwen_extract_nouns(sentence):
-    prompt = (
-        "Extract the main object nouns from this sentence. "
-        "Return only the nouns separated by commas. No explanation.\n\n"
-        f"Sentence: {sentence}"
+# ------------------------------
+# Colors
+# ------------------------------
+BASE_COLORS = [
+    (0, 255, 0),   # green
+    (0, 0, 255),   # red
+    (255, 0, 0),   # blue
+    (255, 255, 0), # cyan
+    (255, 0, 255)  # magenta
+]
+
+# ------------------------------
+# Mask coloring
+# ------------------------------
+def apply_color_mask(img, mask, color):
+    m = (mask > 0.5).astype("uint8")
+    overlay = img.copy()
+    color_arr = np.zeros_like(img)
+    color_arr[:] = color
+    overlay[m == 1] = cv2.addWeighted(img[m == 1], 0.3, color_arr[m == 1], 0.7, 0)
+    return overlay
+
+# ------------------------------
+# Qwen prompt splitter
+# ------------------------------
+def qwen_split_to_prompts(text, max_objects=5, max_tokens=256):
+    if not text:
+        return []
+
+    system = (
+        "You split a scene description into multiple segmentation prompts.\n"
+        "Rules:\n"
+        "1) Identify visually distinct objects.\n"
+        "2) Output JSON list with keys 'object' and 'prompt'.\n"
+        "3) Prompt must be '<image> Segment ONLY the X. Highlight ONLY the X.'\n"
+        "4) Never output natural sentences.\n"
+        "5) Output only JSON."
     )
 
-    inputs = qwen_tokenizer(prompt, return_tensors="pt")
+    full_prompt = system + "\nUser: " + text.strip() + "\n"
+
+    inputs = qwen_tokenizer(full_prompt, return_tensors="pt")
     outputs = qwen_model.generate(
         **inputs,
-        max_new_tokens=30,
+        max_new_tokens=max_tokens,
         do_sample=False
     )
-    result = qwen_tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-    # clean
-    text = result.split("Sentence:")[-1].strip().lower()
-    text = text.replace(".", "").replace("and", ",")
-    nouns = [x.strip() for x in text.split(",") if x.strip()]
+    raw = qwen_tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-    # Filtering clothing + colors
-    clothing = {"shirt","tshirt","jeans","pant","pants","jacket","hoodie",
-                "shorts","cap","hat","coat","sweater","skirt"}
-    colors = {"red","blue","green","yellow","black","white","brown",
-              "pink","orange","violet","purple","grey","gray"}
+    s = raw.find("[")
+    e = raw.rfind("]")
 
-    nouns = [n for n in nouns if n not in clothing and n not in colors]
+    if s != -1 and e != -1:
+        try:
+            parsed = json.loads(raw[s:e+1])
+            out = []
 
-    # remove duplicates
-    nouns = list(dict.fromkeys(nouns))
+            for item in parsed[:max_objects]:
+                obj = item.get("object", "").strip()
+                prompt = item.get("prompt", "").strip()
 
-    # prioritise person + object
-    if "person" in nouns and len(nouns) > 2:
-        nouns = ["person"] + [n for n in nouns if n != "person"]
+                if not prompt.startswith("<image>"):
+                    prompt = f"<image> Segment ONLY the {obj}. Highlight ONLY the {obj}."
 
-    return nouns[:2]  # max 2 nouns
+                if obj:
+                    out.append({"object": obj, "prompt": prompt})
 
+            if out:
+                return out
+        except:
+            pass
 
-# =========================================================
-# MASK COLORING
-# =========================================================
-def apply_mask_color(img, mask, color):
-    mask = (mask > 0.5).astype("uint8")
-    overlay = img.copy()
-    col = np.zeros_like(img)
-    col[:] = color
-    overlay[mask == 1] = cv2.addWeighted(
-        img[mask == 1], 0.4,
-        col[mask == 1], 0.6,
-        0
-    )
-    return overlay, mask
+    clean = text.replace("<image>", "").strip()
+    fallback = f"<image> Segment ONLY the {clean}. Highlight ONLY the {clean}."
+    return [{"object": clean, "prompt": fallback}]
 
-
-# =========================================================
-# ARG PARSER
-# =========================================================
+# ------------------------------
+# Arg parser
+# ------------------------------
 def parse_args():
-    parser = argparse.ArgumentParser(description="Sa2VA + Qwen 2.5 segmentation")
-    parser.add_argument("input_path")
-    parser.add_argument("--model_path", default="ByteDance/Sa2VA-B")
-    parser.add_argument("--text", type=str, required=True)
-    parser.add_argument("--work-dir", default="results_qwen")
-    return parser.parse_args()
+    ap = argparse.ArgumentParser()
+    ap.add_argument("input_path")
+    ap.add_argument("--model_path", default="ByteDance/Sa2VA-1B")
+    ap.add_argument("--text", required=True)
+    ap.add_argument("--work-dir", default="results_new")
+    ap.add_argument("--max-objects", type=int, default=5)
+    return ap.parse_args()
 
-
-# =========================================================
-# MAIN
-# =========================================================
-if __name__ == "__main__":
+# ------------------------------
+# Main script
+# ------------------------------
+def main():
     cfg = parse_args()
     os.makedirs(cfg.work_dir, exist_ok=True)
 
-    print("\nLoading Sa2VA model...")
+    print("Loading Sa2VA model...")
     quant = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_quant_type="nf4",
         bnb_4bit_use_double_quant=True,
-        bnb_4bit_compute_dtype=torch.bfloat16,
+        bnb_4bit_compute_dtype=torch.bfloat16
     )
 
-    model = AutoModelForCausalLM.from_pretrained(
+    sa_model = AutoModelForCausalLM.from_pretrained(
         cfg.model_path,
         trust_remote_code=True,
         device_map="auto",
         quantization_config=quant,
         torch_dtype=torch.bfloat16
     )
-    tokenizer = AutoTokenizer.from_pretrained(cfg.model_path, trust_remote_code=True)
 
-    # =========================================================
-    # LOAD FRAMES
-    # =========================================================
+    sa_model.eval()
+    torch.set_grad_enabled(False)
+
+    sa_tokenizer = AutoTokenizer.from_pretrained(
+        cfg.model_path, trust_remote_code=True
+    )
+
     if os.path.isdir(cfg.input_path):
         files = sorted(os.listdir(cfg.input_path))
         image_paths = [
             os.path.join(cfg.input_path, f)
             for f in files
-            if os.path.splitext(f)[1].lower() in {".jpg",".jpeg",".png",".bmp",".tiff"}
+            if os.path.splitext(f)[1].lower() in {".jpg", ".png", ".jpeg", ".bmp"}
         ]
     else:
         image_paths = [cfg.input_path]
 
-    vid_frames = [Image.open(p).convert("RGB") for p in image_paths]
-    num_frames = len(vid_frames)
+    frames = [Image.open(p).convert("RGB") for p in image_paths]
+    N = len(frames)
 
-    print(f"\nLoaded {num_frames} frame(s).\n")
+    print(f"Loaded {N} frame(s).")
 
-    # =========================================================
-    # NOUNS
-    # =========================================================
-    clean_text = cfg.text.replace("<image>", "").strip()
-    nouns = qwen_extract_nouns(clean_text)
+    objects = qwen_split_to_prompts(cfg.text, max_objects=cfg.max_objects)
+    print("Qwen objects:", [o["object"] for o in objects])
 
-    print("Extracted nouns:", nouns)
+    all_masks = []
+    for idx, obj in enumerate(objects):
+        prompt = obj["prompt"]
 
-    if len(nouns) == 0:
-        print("❌ No objects detected.")
-        exit()
+        print(f"\nSegmentation {idx}: {obj['object']}")
+        print(prompt)
 
-    if len(nouns) == 1:
-        obj1 = nouns[0]
-        obj2 = None
-    else:
-        obj1, obj2 = nouns[0], nouns[1]
-
-    print(f"\nObject 1 = {obj1}")
-    print(f"Object 2 = {obj2}\n")
-
-    COLOR1 = (0,255,0)
-    COLOR2 = (0,0,255)
-
-    # =========================================================
-    # PROMPTS
-    # =========================================================
-    if obj2:
-        prompt1 = (
-            f"<image> Segment ONLY the {obj1} associated with the {obj2}. "
-            f"Do NOT segment any other {obj1}s."
-        )
-
-        prompt2 = (
-            f"<image> Segment ONLY the {obj2} associated with the {obj1}. "
-            f"Do NOT segment any other {obj2}s."
-        )
-    else:
-        prompt1 = f"<image> Segment ONLY the {obj1}. Highlight it clearly."
-
-    # =========================================================
-    # IMAGE or VIDEO MODE
-    # =========================================================
-    is_video = num_frames > 1
-
-    # -------------------- RUN 1 --------------------
-    if is_video:
-        res1 = model.predict_forward(video=vid_frames, text=prompt1, tokenizer=tokenizer)
-        frame_range = range(num_frames)
-    else:
-        res1 = model.predict_forward(image=vid_frames[0], text=prompt1, tokenizer=tokenizer)
-        frame_range = [0]
-
-    mask1 = res1["prediction_masks"][0]
-
-    # -------------------- RUN 2 --------------------
-    if obj2:
-        if is_video:
-            res2 = model.predict_forward(video=vid_frames, text=prompt2, tokenizer=tokenizer)
+        if N == 1:
+            fake_video = [frames[0], frames[0]]
+            res = sa_model.predict_forward(
+                video=fake_video, text=prompt, tokenizer=sa_tokenizer
+            )
+            masks = res["prediction_masks"][0][:1]
         else:
-            res2 = model.predict_forward(image=vid_frames[0], text=prompt2, tokenizer=tokenizer)
-        mask2 = res2["prediction_masks"][0]
+            res = sa_model.predict_forward(
+                video=frames, text=prompt, tokenizer=sa_tokenizer
+            )
+            masks = res["prediction_masks"][0]
 
-    # =========================================================
-    # IMAGE OUTPUT
-    # =========================================================
-    if not is_video:
-        idx = 0
-        img = cv2.imread(image_paths[idx])
+        all_masks.append(masks)
 
-        img1, m1 = apply_mask_color(img, mask1[idx], COLOR1)
+        del res
 
-        if obj2:
-            img2, m2 = apply_mask_color(img, mask2[idx], COLOR2)
-            combined = img1.copy()
-            combined[m2 == 1] = img2[m2 == 1]
-        else:
-            combined = img1
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+            try:
+                torch.cuda.ipc_collect()
+            except:
+                pass
 
-        out_path = os.path.join(cfg.work_dir, "output.png")
-        cv2.imwrite(out_path, combined)
-        print(f"\n✔ Saved image: {out_path}\n")
-        exit()
+    if N == 1:
+        img = cv2.imread(image_paths[0])
+        out = img.copy()
 
-    # =========================================================
-    # VIDEO OUTPUT
-    # =========================================================
-    print("\nCreating output video...")
+        for i, masks in enumerate(all_masks):
+            out = apply_color_mask(out, masks[0], BASE_COLORS[i % len(BASE_COLORS)])
+
+        save_path = os.path.join(cfg.work_dir, "combined_output.png")
+        cv2.imwrite(save_path, out)
+
+        print("Saved:", save_path)
+        return
 
     h, w, _ = cv2.imread(image_paths[0]).shape
-    out_vid = os.path.join(cfg.work_dir, "output_video.mp4")
 
-    writer = cv2.VideoWriter(out_vid, cv2.VideoWriter_fourcc(*"mp4v"), 10, (w, h))
+    out_video = os.path.join(cfg.work_dir, "combined_video.mp4")
+    writer = cv2.VideoWriter(
+        out_video,
+        cv2.VideoWriter_fourcc(*"mp4v"),
+        10,
+        (w, h)
+    )
 
-    for idx in frame_range:
-        img = cv2.imread(image_paths[idx])
-        img1, m1 = apply_mask_color(img, mask1[idx], COLOR1)
+    for f in range(N):
+        img = cv2.imread(image_paths[f])
+        frame_out = img.copy()
 
-        if obj2:
-            img2, m2 = apply_mask_color(img, mask2[idx], COLOR2)
-            combined = img1.copy()
-            combined[m2 == 1] = img2[m2 == 1]
-        else:
-            combined = img1
+        for i, masks in enumerate(all_masks):
+            frame_out = apply_color_mask(
+                frame_out,
+                masks[f],
+                BASE_COLORS[i % len(BASE_COLORS)]
+            )
 
-        writer.write(combined)
+        writer.write(frame_out)
 
     writer.release()
-    print(f"\n✔ Output video saved: {out_vid}\n")
+    print("Saved:", out_video)
+
+if __name__ == "__main__":
+    main()
