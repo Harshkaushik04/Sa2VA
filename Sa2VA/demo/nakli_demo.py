@@ -1,6 +1,6 @@
 import argparse
 import os
-from transformers import BitsAndBytesConfig
+
 from PIL import Image
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoProcessor, AutoConfig
 
@@ -79,24 +79,13 @@ if __name__ == "__main__":
     cfg = parse_args()
     model_path = cfg.model_path
     
-# 1. Define the 4-bit quantization configuration
-    quantization_config = BitsAndBytesConfig(
-    load_in_4bit=True,
-    bnb_4bit_quant_type="nf4",
-    bnb_4bit_use_double_quant=True,
-    bnb_4bit_compute_dtype=torch.bfloat16  # <-- CHANGE THIS
-)
-
-# 2. Load the model with this new config
+    # --- HERE ARE THE CHANGES ---
     model = AutoModelForCausalLM.from_pretrained(
-    model_path,
-    quantization_config=quantization_config,
-    device_map="auto",
-    trust_remote_code=True,
-    torch_dtype=torch.bfloat16  # <-- CHANGE THIS
-)
-
-    # model.to(torch.float16) # <-- ADD THIS LINE
+        model_path,
+        torch_dtype=torch.bfloat16,  # Changed from "auto" for performance
+        device_map="auto",         # Uncommented to load model on GPU
+        trust_remote_code=True
+    )
     # --- END OF CHANGES ---
     
     """
@@ -163,15 +152,47 @@ if __name__ == "__main__":
     print(f"The output is:\n{prediction}")
 
     if '[SEG]' in prediction and Visualizer is not None:
-        _seg_idx = 0
-        pred_masks = result['prediction_masks'][_seg_idx]
+        
+        # result['prediction_masks'] is a LIST of mask arrays. 
+        # Each item in the list corresponds to one [SEG] token.
+        # Each mask array has shape (num_frames, H, W).
+        all_mask_sets = result['prediction_masks']
+        
+        print(f"Found {len(all_mask_sets)} segmentation mask set(s).")
+
         for frame_idx in range(len(vid_frames)):
-            pred_mask = pred_masks[frame_idx]
-            if cfg.work_dir:
-                os.makedirs(cfg.work_dir, exist_ok=True)
-                visualize(pred_mask, image_paths[frame_idx], cfg.work_dir)
-            else:
-                os.makedirs('./temp_visualize_results', exist_ok=True)
-                visualize(pred_mask, image_paths[frame_idx], './temp_visualize_results')
+            # For single image mode, only process the selected frame
+            if cfg.select > 0 and frame_idx != (cfg.select - 1):
+                continue
+
+            masks_for_this_frame = []
+            for mask_set in all_mask_sets:
+                # Get the mask for the current frame from this mask set
+                if frame_idx < len(mask_set):
+                    masks_for_this_frame.append(mask_set[frame_idx])
+            
+            if not masks_for_this_frame:
+                continue # No masks for this frame
+
+            # Stack all masks for this frame into a single numpy array (N, H, W)
+            combined_masks_for_frame = np.stack(masks_for_this_frame, axis=0)
+
+            # --- In-lining the visualize function to handle multiple masks ---
+            visualizer = Visualizer()
+            img = cv2.imread(image_paths[frame_idx])
+            visualizer.set_image(img)
+            
+            # Draw all masks with random colors
+            # This is the key change: draw_binary_masks can handle a stack of masks
+            visualizer.draw_binary_masks(combined_masks_for_frame, colors='random', alphas=0.4)
+            visual_result = visualizer.get_image()
+
+            # --- Original saving logic ---
+            output_path_dir = cfg.work_dir if cfg.work_dir else './temp_visualize_results'
+            os.makedirs(output_path_dir, exist_ok=True)
+            output_path = os.path.join(output_path_dir, os.path.basename(image_paths[frame_idx]))
+            cv2.imwrite(output_path, visual_result)
+            print(f"Saved visualization for frame {frame_idx} to {output_path}")
+            
     else:
         pass
