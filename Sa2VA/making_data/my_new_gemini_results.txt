@@ -1,0 +1,202 @@
+{
+    "1": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a person riding a horse in an open field, with a white fence in the background. The horse is trotting, and the rider is wearing a helmet. The person is also wearing a black shirt. The horse is brown in color.<|im_end|>"
+    },
+    "2": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a black SUV driving on a city street. The car is positioned on the right side of the road, moving towards the left. The background features a large building with a sign that reads \"Beijing Creative Hospital.\" The street is lined with trees, and there are traffic lights visible in the distance.<|im_end|>"
+    },
+    "3": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features two airplanes, one larger and one smaller, parked on a grassy field. The larger airplane is positioned on the left side of the frame, while the smaller one is on the right. The larger airplane is white with blue and red stripes, while the smaller one is white with a blue stripe. The grassy field is located in the middle of the scene, with a few trees visible in the background.<|im_end|>"
+    },
+    "4": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, 1. The main objects in the video are a group of brown bears. 2. The bears are located in a grassy field with a mountain in the background. 3. The bears are seen walking and interacting with each other in the field.<|im_end|>"
+    },
+    "5": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, 1. The main objects in the video are two monkeys, a bird, and a tree. The bird is perched on a rock, while the monkey is standing on a rock. The tree is located in the foreground, and the bird is positioned in the background. 2. The bird is small and white, while the monkey is larger and brown. The tree is tall and has a thin trunk. 3. The bird is perched on a rock, while the monkey is standing on a rock. The tree is in the foreground, and the bird is in the background.<|im_end|>"
+    },
+    "6": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, the video shows two pandas, a larger one and a smaller one, standing on their hind legs. The larger panda is positioned in the center of the scene, while the smaller panda is on the right side. The larger panda is eating food from a bowl held by a person wearing a blue shirt. The smaller panda is also eating from the same bowl.<|im_end|>"
+    },
+    "7": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, the video shows a small brown dog standing on a road, surrounded by monkeys. The dog is facing the monkeys, and they are positioned in the background. The dog is brown and fluffy, while the monkeys are brown and appear to be in motion.<|im_end|>"
+    },
+    "8": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a red bird cage with two colorful parrots inside. The parrot on the left is blue, while the one on the right is green. The cage is positioned in front of a window, with a car visible outside. The bird cage is placed on a table, and the background shows a wall.<|im_end|>"
+    },
+    "9": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a group of sea turtles swimming in a shallow body of water. The main focus is on two turtles, with one positioned in the foreground and the other in the background. The foreground turtle is located towards the left side of the image, while the background turtle is situated towards the right. Both turtles are swimming in the water, with the background turtle slightly ahead of the foreground one.<|im_end|>"
+    },
+    "10": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a group of fish swimming in an aquarium tank. The main focus is on a yellow and black striped fish, which is positioned in the center of the tank. There are also other fish in the background, including a yellow and black striped fish, a yellow and black striped fish, and a yellow and black striped fish. The fish are swimming around the tank, creating a lively and colorful scene.<|im_end|>"
+    },
+    "11": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a small black and white dog walking on a wooden floor. The dog is seen in the foreground, with its back turned to the camera. The dog is moving towards a door, which is located in the background. The floor is tiled, and the dog is walking on it.<|im_end|>"
+    },
+    "12": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, 1. The main objects in the video are a monkey and a turtle. The monkey is sitting on a rock, while the turtle is on the water. 2. The monkey is brown and is positioned towards the center of the image. The turtle is located towards the right side of the image. 3. The monkey is seen in the foreground, while the turtle is in the background.<|im_end|>"
+    },
+    "13": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a sea turtle swimming in the ocean, with a small fish nearby. The turtle is positioned towards the right side of the image, while the fish is located in the center. The sea turtle is seen eating the fish, which is positioned in front of it.<|im_end|>"
+    },
+    "14": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, 1. The main objects in the video are two trucks, a yellow dump truck and a red dump truck, driving on a dirt road. 2. The yellow dump truck is positioned on the left side of the road, while the red dump truck is on the right. 3. Both trucks are moving in the same direction, with the yellow truck slightly ahead of the red truck.<|im_end|>"
+    },
+    "15": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "In the video, a man is kneeling on the snow-covered ground, feeding a group of sheep. The sheep are standing around him, some closer and others further away. The man is holding a piece of food in his hand. The sheep are white in color, and they are positioned in various positions around the man.<|im_end|>"
+    },
+    "16": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features two white rabbits, <p> rabbit-1 </p> [SEG] and <p> rabbit-2 </p> [SEG], standing on a bed of green plants. Rabbit-1 is positioned in the foreground, while rabbit-2 is located in the background. Both rabbits are white and are eating the green plants.<|im_end|>"
+    },
+    "17": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, the video features a brown bear standing on a dirt road. The bear is positioned in the center of the frame, with its back facing the camera. The background consists of a mountain range and a green field.<|im_end|>"
+    },
+    "18": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, the video shows two dogs, a black one and a white one, playing together on a concrete floor. The black dog is on the left side of the frame, while the white dog is on the right. The white dog is standing on top of the black dog, and they are both engaged in a playful wrestling match.<|im_end|>"
+    },
+    "19": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a sea turtle swimming in a body of water. The main object is a sea turtle with a yellow shell, swimming in the foreground. In the background, there is another sea turtle, which is partially visible. The sea turtle in the background is positioned towards the right side of the image.<|im_end|>"
+    },
+    "20": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, 1. The main objects in the video are two elephants, one larger and one smaller, standing on a dirt field. The larger elephant is positioned in the background, while the smaller one is in the foreground. 2. The larger elephant is facing the camera, while the smaller one is facing away from it. 3. The larger elephant has a long trunk, while the smaller one has a shorter trunk.<|im_end|>"
+    },
+    "21": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "In the video, a man is seen walking down a wet street with his bicycle. The bicycle is positioned in the center of the scene, with the man walking beside it. The man is wearing a black hoodie and a baseball cap. The bicycle is also located in the center of the scene.<|im_end|>"
+    },
+    "22": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "In the video, a young girl is seen feeding a group of rabbits through a wire fence. The main objects in the scene are the girl, the rabbits, and the wire fence. The girl is wearing a white shirt with a black pattern, and she is kneeling down to feed the rabbits. The rabbits are white and black, and they are standing on the ground. The wire fence is positioned between the girl and the rabbits, with the girl reaching out to feed them.<|im_end|>"
+    },
+    "23": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, the video shows a person feeding a group of green lizards in a cage. The main objects in the video are the lizards and the person feeding them. The lizards are positioned in the foreground, with one lizard in the center and another on the right side. The person is feeding the lizards from a blue container, which is placed in the middle of the cage.<|im_end|>"
+    },
+    "24": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The main objects in the video are a young girl riding a pink bicycle, a parked orange bicycle, and a car. The girl is positioned in the center of the image, riding the pink bicycle. The parked orange bicycle is located to the right of the girl, and the car is situated behind the girl and the orange bicycle.<|im_end|>"
+    },
+    "25": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, 1. The main objects in the video are two puppies, a small white puppy and a larger white puppy. The puppies are playing with a large plastic bottle. 2. The puppies are located in the foreground and background, with the bottle positioned in the middle. 3. The small white puppy is on the left side of the bottle, while the larger white puppy is on the right side.<|im_end|>"
+    },
+    "26": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, 1. In the video, there are three main objects: a circus performer, a bear, and a horse. The performer is on the left side of the stage, the bear is in the center, and the horse is on the right side. 2. The performer is wearing a colorful costume, while the bear is dressed in a black suit. The horse is standing on a green stage. 3. The performer is holding a baton, the bear is holding a ring, and the horse is holding a hoop.<|im_end|>"
+    },
+    "27": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a person holding a plastic container with two small black geckos inside. The container is placed on a table, and the person is holding it with their left hand. The geckos are positioned in the center of the container, with one on the left side and the other on the right side.<|im_end|>"
+    },
+    "28": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, 1. The main objects in the video are two dogs, one brown and one grey. 2. The brown dog is positioned in the foreground, while the grey dog is in the background. 3. The brown dog is seen in the left side of the image, while the grey dog is in the right side.<|im_end|>"
+    },
+    "29": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, 1. The main objects in the video are two monkeys. 2. The monkeys are in a shallow stream, with one monkey biting the other. 3. The monkey on the left is biting the other, while the monkey on the right is standing still.<|im_end|>"
+    },
+    "30": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, the video shows two airplanes on a runway. 1. The main object is a large white airplane, which is the airplane in the foreground. 2. The second airplane is a smaller one, positioned behind the main airplane. 3. The main airplane is white, while the smaller one is red and white.<|im_end|>"
+    },
+    "31": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, 1. The main objects in the video are a large black bear and two smaller brown bears. The black bear is walking on the road, while the two smaller bears are following closely behind. 2. The black bear is positioned in the center of the image, while the two smaller bears are positioned on the left and right sides of the image. 3. The black bear is larger in size compared to the two smaller bears, and they are walking in a line.<|im_end|>"
+    },
+    "32": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a group of birds in various cages, with a total of four birds visible. The birds are positioned in different cages, with some in green cages and others in blue cages. The birds are seen in different positions, with some standing on the bars of the cages and others sitting or lying on the ground. The birds are also seen in different areas, with some in the foreground and others in the background.<|im_end|>"
+    },
+    "33": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a vibrant aquarium filled with a variety of colorful fish. The main focus is on a group of red fish swimming around. The fish are positioned in different areas of the aquarium, creating a lively and dynamic scene. The fish are seen in various positions, with some swimming closer to the foreground and others further back. The colors of the fish are vivid, with a mix of reds and other shades, creating a visually striking image.<|im_end|>"
+    },
+    "34": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a herd of goats walking across a concrete surface. The goats are of various colors, including brown, white, and black. They are moving in a line, with some of them following each other closely. The goats are seen from the front, and they are walking on a large, empty concrete area.<|im_end|>"
+    },
+    "35": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a woman and two dogs in a red arena. The woman is standing, and the dogs are on a leash. The woman is wearing a red shirt and has a red and white polka dot scarf around her neck. The dogs are wearing red and white polka dot outfits. The woman is holding the leash of one of the dogs, while the other two dogs are on the leash of the woman.<|im_end|>"
+    },
+    "36": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a group of three tigers drinking water from a small pond. The main focus is on the adult tiger, which is positioned in the center of the scene. The other two tigers are positioned on either side of the adult tiger, with their heads submerged in the water. The background consists of a dirt field with rocks and sparse vegetation.<|im_end|>"
+    },
+    "37": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features two cats, one of which is wearing a yellow flotation device. The main cat is positioned in the foreground, while the other cat is slightly behind it. The first cat is standing on a table, and the second cat is standing on a bed. The table is located in the foreground, while the bed is in the background. The scene is set in a room with a white wall and a lamp in the background.<|im_end|>"
+    },
+    "38": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, the video shows a man in a red jacket riding a brown horse in a field. The horse is running around the man, and the man is walking in front of the horse. The background consists of a cloudy sky and a wind turbine.<|im_end|>"
+    },
+    "39": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a group of three gray cats sitting on a cat tree. The cat tree is positioned in the background, with a blue wall behind it. The cats are positioned in the center of the image, with one cat on the left, another in the middle, and the third cat on the right. The cats are all looking in different directions, with one of them looking up.<|im_end|>"
+    },
+    "40": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, 1. The main objects in the video are a brown cow and a horse. The cow is standing in a pen, while the horse is tied to a fence. 2. The cow is positioned in the foreground, while the horse is in the background. 3. The cow is brown in color, while the horse is brown and white.<|im_end|>"
+    },
+    "41": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features two elephants in an enclosure, with a glass wall separating them. The elephant on the left is standing in the foreground, while the one on the right is positioned in the background. The glass wall is located in the middle of the scene, with the elephants standing in front of it.<|im_end|>"
+    },
+    "42": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a large aquarium tank with two turtles inside. The tank is filled with water and has a green bottom. The tank is positioned in a room with a blue wall and a white door. The turtles are positioned on a green mat, with one turtle on the left side and the other on the right side of the tank.<|im_end|>"
+    },
+    "43": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, the video shows two large animals, likely oxen, standing in a field. 1. The main objects are the oxen, with one being black and the other brown. 2. The black oxen is positioned on the left side of the frame, while the brown oxen are on the right. 3. The black oxen is facing the brown oxen, suggesting a confrontation or interaction between them.<|im_end|>"
+    },
+    "44": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, 1. The main objects in the video are a group of pandas. 2. The pandas are positioned in various locations, including the foreground, background, and center. 3. The pandas are primarily black and white in color, with some having black and brown fur. They are seen sitting, standing, and lying on the ground.<|im_end|>"
+    },
+    "45": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, 1. The main objects in the video are three cows walking down a dirt road. 2. The cows are located in the center of the image, with one cow in the foreground and two others in the background. 3. The cows are walking on a dirt road surrounded by green vegetation, with a hillside in the background.<|im_end|>"
+    },
+    "46": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a group of elephants in a fenced enclosure. The main objects include a mother elephant and her four young elephants. The mother elephant is positioned in the center of the enclosure, while the four young elephants are scattered around her. The mother elephant is seen nuzzling and playing with the young ones, creating a playful and social atmosphere.<|im_end|>"
+    },
+    "47": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, 1. The main objects in the video are two bulls fighting in a dirt arena. 2. The bulls are brown in color, and one of them is wearing a blue shirt. 3. The bull on the left is in the foreground, while the bull on the right is slightly behind it.<|im_end|>"
+    },
+    "48": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features two white rabbits, one of which is a baby rabbit, eating green leaves. The baby rabbit is positioned in the center of the image, while the other is located on the left side. The baby rabbit is eating from a pile of green leaves, while the other is eating from a pile of green vegetables.<|im_end|>"
+    },
+    "49": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "Sure, the video shows two tigers in a grassy field. 1. The main objects are the two tigers, with one standing and the other on its back. 2. The standing tiger is positioned in the foreground, while the one on its back is in the background. 3. The standing tiger is wearing a white shirt, while the one on its back is wearing a black and white striped shirt.<|im_end|>"
+    },
+    "50": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features two horses, a black one and a brown one, standing on a dirt field. The black horse is positioned on the left side of the frame, while the brown horse is on the right. Both horses are standing close to each other, with the black horse slightly ahead of the brown horse.<|im_end|>"
+    }
+}

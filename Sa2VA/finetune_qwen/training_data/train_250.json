@@ -1,0 +1,1500 @@
+{
+  "1": {
+    "image_description": "The video features a person riding a horse in an open field, with a white fence in the background. The horse is trotting, and the rider is wearing a helmet. The person is also wearing a black shirt. The horse is brown in color.<|im_end|>",
+    "focus_query": "Man riding horse",
+    "sentence1": "<image> Segment the person wearing a black shirt and helmet.",
+    "sentence2": "<image> Segment the brown horse trotting in the field."
+  },
+  "2": {
+    "image_description": "The video shows a black SUV driving on a city street. The car is positioned on the right side of the road, moving towards the left. The background features a large building with a sign that reads \"Beijing Creative Hospital.\" The street is lined with trees, and there are traffic lights visible in the distance.<|im_end|>",
+    "focus_query": "black car following white car",
+    "sentence1": "<image> Segment the black SUV driving on the right side of the road.",
+    "sentence2": "<image> Segment the white car ahead of the black SUV."
+  },
+  "3": {
+    "image_description": "The video features two airplanes, one larger and one smaller, parked on a grassy field. The larger airplane is positioned on the left side of the frame, while the smaller one is on the right. The larger airplane is white with blue and red stripes, while the smaller one is white with a blue stripe. The grassy field is located in the middle of the scene, with a few trees visible in the background.<|im_end|>",
+    "focus_query": "left aeroplane moving forward",
+    "sentence1": "<image> Segment the larger white airplane with blue and red stripes on the left side."
+  },
+  "4": {
+    "image_description": "Sure, 1. The main objects in the video are two brown bears. 2. The bears are located in a grassy field with a mountain in the background. 3. One bear is on the left and the other is on the right, interacting with each other.<|im_end|>",
+    "focus_query": "two bears colliding heads with each other",
+    "sentence1": "<image> Segment the brown bear on the left.",
+    "sentence2": "<image> Segment the brown bear on the right."
+  },
+  "5": {
+    "image_description": "Sure, 1. The main objects in the video are a monkey, a bird, and a tree. The bird is perched on a rock, while the monkey is standing on a rock. The tree is located in the foreground, and the bird is positioned in the background. 2. The bird is small and white, while the monkey is larger and brown.<|im_end|>",
+    "focus_query": "Monkey going from door and coming back",
+    "sentence1": "<image> Segment the larger brown monkey standing on the rock."
+  },
+  "6": {
+    "image_description": "Sure, the video shows two pandas, a larger one and a smaller one, standing on their hind legs. The larger panda is positioned in the center of the scene, while the smaller panda is on the right side. The larger panda is eating food from a bowl held by a person wearing a blue shirt. The smaller panda is also eating from the same bowl.<|im_end|>",
+    "focus_query": "Man feeding pandas",
+    "sentence1": "<image> Segment the person wearing a blue shirt.",
+    "sentence2": "<image> Segment the larger panda in the center.",
+    "sentence3": "<image> Segment the smaller panda on the right side."
+  },
+  "7": {
+    "image_description": "Sure, the video shows a small brown dog standing on a road, surrounded by monkeys. The dog is facing a monkey positioned in the background. The dog is brown and fluffy.<|im_end|>",
+    "focus_query": "dog fighting monkeys",
+    "sentence1": "<image> Segment the small brown fluffy dog standing on the road.",
+    "sentence2": "<image> Segment the brown monkey positioned in the background."
+  },
+  "8": {
+    "image_description": "The video features a red bird cage with two colorful parrots inside. The parrot on the left is blue, while the one on the right is green. The cage is positioned in front of a window, with a car visible outside. The bird cage is placed on a table, and the background shows a wall.<|im_end|>",
+    "focus_query": "blue birds inside cage",
+    "sentence1": "<image> Segment the blue parrot on the left side of the cage."
+  },
+  "9": {
+    "image_description": "The video features sea turtles swimming in a shallow body of water. The main focus is on two turtles, with one positioned in the foreground and the other in the background. The foreground turtle is located towards the left side of the image, while the background turtle is situated towards the right. Both turtles are swimming in the water, with the background turtle slightly ahead of the foreground one.<|im_end|>",
+    "focus_query": "tortoise swimming inside water",
+    "sentence1": "<image> Segment the turtle positioned in the foreground on the left.",
+    "sentence2": "<image> Segment the turtle positioned in the background on the right."
+  },
+  "10": {
+    "image_description": "The video features a small black and white dog walking on a wooden floor. The dog is seen in the foreground, with its back turned to the camera. The dog is moving towards a door, which is located in the background. The floor is tiled, and the dog is walking on it.<|im_end|>",
+    "focus_query": "kid playing with dog",
+    "sentence1": "<image> Segment the small black and white dog in the foreground."
+  },
+  "11": {
+    "image_description": "The video shows a child playing with a dog. The child is standing on the left. The dog is on the right. The background is a living room.<|im_end|>",
+    "focus_query": "kid playing with dog",
+    "sentence1": "<image> Segment the child standing on the left.",
+    "sentence2": "<image> Segment the dog on the right."
+  },
+  "12": {
+    "image_description": "Sure, 1. The main objects in the video are a monkey and a turtle. The monkey is sitting on a rock, while the turtle is on the water. 2. The monkey is brown and is positioned towards the center of the image. The turtle is located towards the right side of the image. 3. The monkey is seen in the foreground, while the turtle is in the background.<|im_end|>",
+    "focus_query": "monkey playing with rock",
+    "sentence1": "<image> Segment the brown monkey sitting on a rock in the foreground.",
+    "sentence2": "<image> Segment the rock the monkey is playing with."
+  },
+  "13": {
+    "image_description": "The video features a sea turtle swimming in the ocean, with a small fish nearby. The turtle is positioned towards the right side of the image, while the fish is located in the center. The sea turtle is seen eating the fish, which is positioned in front of it.<|im_end|>",
+    "focus_query": "tortoise inside water",
+    "sentence1": "<image> Segment the sea turtle positioned towards the right side of the image."
+  },
+  "14": {
+    "image_description": "Sure, 1. The main objects in the video are two trucks, a yellow dump truck and a red dump truck, driving on a dirt road. 2. The yellow dump truck is positioned on the left side of the road, while the red dump truck is on the right. 3. Both trucks are moving in the same direction, with the yellow truck slightly ahead of the red truck.<|im_end|>",
+    "focus_query": "yellow truck and red truck",
+    "sentence1": "<image> Segment the yellow dump truck on the left side.",
+    "sentence2": "<image> Segment the red dump truck on the right side."
+  },
+  "15": {
+    "image_description": "In the video, a man is kneeling on the snow-covered ground, feeding two sheep. One sheep is on his left, and another is on his right. The man is holding a piece of food. The sheep are white.",
+    "focus_query": "Man feeding sheeps",
+    "sentence1": "<image> Segment the man kneeling on the snow-covered ground.",
+    "sentence2": "<image> Segment the white sheep on the left.",
+    "sentence3": "<image> Segment the white sheep on the right."
+  },
+  "16": {
+    "image_description": "The video features two white rabbits, rabbit-1 and rabbit-2, standing on a bed of green plants. Rabbit-1 is positioned in the foreground, while rabbit-2 is located in the background. Both rabbits are white and are eating the green plants.<|im_end|>",
+    "focus_query": "Rabits eating grass",
+    "sentence1": "<image> Segment the white rabbit in the foreground.",
+    "sentence2": "<image> Segment the white rabbit in the background."
+  },
+  "17": {
+    "image_description": "Sure, the video features a brown bear standing on a dirt road. The bear is positioned in the center of the frame, with its back facing the camera. The background consists of a mountain range and a green field.<|im_end|>",
+    "focus_query": "bears fighting",
+    "sentence1": "<image> Segment the brown bear standing in the center of the dirt road.",
+    "sentence2": "<image> Segment the second bear fighting with the first one."
+  },
+  "18": {
+    "image_description": "Sure, the video shows two dogs, a black one and a white one, playing together on a concrete floor. The black dog is on the left side of the frame, while the white dog is on the right. The white dog is standing on top of the black dog, and they are both engaged in a playful wrestling match.<|im_end|>",
+    "focus_query": "white dog fighting with black one",
+    "sentence1": "<image> Segment the white dog standing on top of the black dog.",
+    "sentence2": "<image> Segment the black dog on the left side."
+  },
+  "19": {
+    "image_description": "The video features a sea turtle swimming in a body of water. The main object is a sea turtle with a yellow shell, swimming in the foreground. In the background, there is another sea turtle, which is partially visible. The sea turtle in the background is positioned towards the right side of the image.<|im_end|>",
+    "focus_query": "Tortoise coming from above",
+    "sentence1": "<image> Segment the sea turtle with a yellow shell swimming in the foreground."
+  },
+  "20": {
+    "image_description": "Sure, 1. The main objects in the video are two elephants, one larger and one smaller, standing on a dirt field. The larger elephant is positioned in the background, while the smaller one is in the foreground. 2. The larger elephant is facing the camera, while the smaller one is facing away from it. 3. The larger elephant has a long trunk, while the smaller one has a shorter trunk.<|im_end|>",
+    "focus_query": "Elephant putting trunk on another elephant",
+    "sentence1": "<image> Segment the larger elephant positioned in the background.",
+    "sentence2": "<image> Segment the smaller elephant positioned in the foreground."
+  },
+  "21": {
+    "image_description": "In the video, a man is seen walking down a wet street with his bicycle. The bicycle is positioned in the center of the scene, with the man walking beside it. The man is wearing a black hoodie and a baseball cap. The bicycle is also located in the center of the scene.<|im_end|>",
+    "focus_query": "person walking down his bicycle",
+    "sentence1": "<image> Segment the man wearing a black hoodie and baseball cap.",
+    "sentence2": "<image> Segment the bicycle located in the center of the scene."
+  },
+  "22": {
+    "image_description": "In the video, a young girl is seen feeding rabbits through a wire fence. The main objects in the scene are the girl and two rabbits. The girl is wearing a white shirt with a black pattern. One rabbit is white, and the other is black. They are standing on the ground.<|im_end|>",
+    "focus_query": "child feeding white rabbit",
+    "sentence1": "<image> Segment the girl wearing a white shirt with a black pattern.",
+    "sentence2": "<image> Segment the white rabbit on the ground.",
+    "sentence3": "<image> Segment the black rabbit on the ground."
+  },
+  "23": {
+    "image_description": "Sure, the video shows a person feeding green lizards in a cage. The lizards are positioned in the foreground, with one lizard in the center and another on the right side. The person is feeding the lizards from a blue container, which is placed in the middle of the cage.<|im_end|>",
+    "focus_query": "hand raising alligator from one position to another",
+    "sentence1": "<image> Segment the green lizard in the center.",
+    "sentence2": "<image> Segment the green lizard on the right.",
+    "sentence3": "<image> Segment the person feeding the lizards."
+  },
+  "24": {
+    "image_description": "The main objects in the video are a young girl riding a pink bicycle, a parked orange bicycle, and a car. The girl is positioned in the center of the image, riding the pink bicycle. The parked orange bicycle is located to the right of the girl, and the car is situated behind the girl and the orange bicycle.<|im_end|>",
+    "focus_query": "child riding bicyle",
+    "sentence1": "<image> Segment the young girl riding the pink bicycle in the center.",
+    "sentence2": "<image> Segment the pink bicycle being ridden."
+  },
+  "25": {
+    "image_description": "Sure, 1. The main objects in the video are two puppies, a small white puppy and a larger white puppy. The puppies are playing with a large plastic bottle. 2. The puppies are located in the foreground and background, with the bottle positioned in the middle. 3. The small white puppy is on the left side of the bottle, while the larger white puppy is on the right side.<|im_end|>",
+    "focus_query": "dogs fighting",
+    "sentence1": "<image> Segment the small white puppy on the left side of the bottle.",
+    "sentence2": "<image> Segment the larger white puppy on the right side of the bottle."
+  },
+  "26": {
+    "image_description": "The video features a monkey climbing a tree. The monkey is brown and nimble. The tree trunk is thick and gray. There is foliage in the background.<|im_end|>",
+    "focus_query": "monkey climbing",
+    "sentence1": "<image> Segment the brown monkey climbing the tree.",
+    "sentence2": "<image> Segment the thick gray tree trunk."
+  },
+  "27": {
+    "image_description": "The video shows a person holding a plastic container with two small black geckos inside. The container is placed on a table, and the person is holding it with their left hand. The geckos are positioned in the center of the container, with one on the left side and the other on the right side.<|im_end|>",
+    "focus_query": "lizard on the left hand",
+    "sentence1": "<image> Segment the small black gecko on the left side of the container."
+  },
+  "28": {
+    "image_description": "Sure, 1. The main objects in the video are two dogs, one brown and one grey. 2. The brown dog is positioned in the foreground, while the grey dog is in the background. 3. The brown dog is seen in the left side of the image, while the grey dog is in the right side.<|im_end|>",
+    "focus_query": "Dogs fighting",
+    "sentence1": "<image> Segment the brown dog positioned in the foreground on the left.",
+    "sentence2": "<image> Segment the grey dog positioned in the background on the right."
+  },
+  "29": {
+    "image_description": "Sure, 1. The main objects in the video are two monkeys. 2. The monkeys are in a shallow stream, with one monkey biting the other. 3. The monkey on the left is biting the other, while the monkey on the right is standing still.<|im_end|>",
+    "focus_query": "monkeys fighting",
+    "sentence1": "<image> Segment the monkey on the left biting the other.",
+    "sentence2": "<image> Segment the monkey on the right standing still."
+  },
+  "30": {
+    "image_description": "Sure, the video shows two airplanes on a runway. 1. The main object is a large white airplane, which is the airplane in the foreground. 2. The second airplane is a smaller one, positioned behind the main airplane. 3. The main airplane is white, while the smaller one is red and white.<|im_end|>",
+    "focus_query": "airplane faced right",
+    "sentence1": "<image> Segment the large white airplane in the foreground."
+  },
+  "31": {
+    "image_description": "Sure, 1. The main objects in the video are a large black bear and two smaller brown bears. The black bear is walking on the road, while the two smaller bears are following closely behind. 2. The black bear is positioned in the center of the image, while the two smaller bears are positioned on the left and right sides of the image. 3. The black bear is larger in size compared to the two smaller bears, and they are walking in a line.<|im_end|>",
+    "focus_query": "bear with its childs",
+    "sentence1": "<image> Segment the large black bear in the center.",
+    "sentence2": "<image> Segment the smaller brown bear on the left.",
+    "sentence3": "<image> Segment the smaller brown bear on the right."
+  },
+  "32": {
+    "image_description": "The video features birds in cages. There is a blue bird in a green cage on the left and a yellow bird in a green cage on the right. The birds are standing on perches.<|im_end|>",
+    "focus_query": "birds inside green cage",
+    "sentence1": "<image> Segment the blue bird in the green cage on the left.",
+    "sentence2": "<image> Segment the yellow bird in the green cage on the right."
+  },
+  "33": {
+    "image_description": "The video features a vibrant aquarium. Two red fish are swimming in the foreground. One is higher up, and the other is near the bottom. The background is blue with rocks.<|im_end|>",
+    "focus_query": "fishes swimming",
+    "sentence1": "<image> Segment the red fish swimming near the top.",
+    "sentence2": "<image> Segment the red fish swimming near the bottom."
+  },
+  "34": {
+    "image_description": "The video features goats walking across a concrete surface. A brown goat is in the lead, followed by a white goat. They are moving in a line towards the camera.<|im_end|>",
+    "focus_query": "goats walking",
+    "sentence1": "<image> Segment the brown goat in the lead.",
+    "sentence2": "<image> Segment the white goat following behind."
+  },
+  "35": {
+    "image_description": "The video features a woman and two dogs in a red arena. The woman is standing, and the dogs are on a leash. The woman is wearing a red shirt. One dog is on the left wearing a red polka dot outfit. The other dog is on the right wearing a similar outfit.<|im_end|>",
+    "focus_query": "monkeys with red shirt",
+    "sentence1": "<image> Segment the dog wearing a red polka dot outfit on the left.",
+    "sentence2": "<image> Segment the dog wearing a red polka dot outfit on the right."
+  },
+  "36": {
+    "image_description": "The video features three tigers drinking water from a small pond. The main focus is on the adult tiger, which is positioned in the center of the scene. Two other tigers are positioned on either side of the adult tiger, with their heads submerged in the water.<|im_end|>",
+    "focus_query": "tigers drinking water",
+    "sentence1": "<image> Segment the adult tiger positioned in the center.",
+    "sentence2": "<image> Segment the tiger on the left drinking water.",
+    "sentence3": "<image> Segment the tiger on the right drinking water."
+  },
+  "37": {
+    "image_description": "The video features two cats, one of which is wearing a yellow flotation device. The main cat is positioned in the foreground, while the other cat is slightly behind it. The first cat is standing on a table, and the second cat is standing on a bed. The table is located in the foreground, while the bed is in the background. The scene is set in a room with a white wall and a lamp in the background.<|im_end|>",
+    "focus_query": "cat with yellow device biting another car",
+    "sentence1": "<image> Segment the cat wearing a yellow flotation device standing on the table.",
+    "sentence2": "<image> Segment the other cat standing on the bed in the background."
+  },
+  "38": {
+    "image_description": "Sure, the video shows a man in a red jacket riding a brown horse in a field. The horse is running around the man, and the man is walking in front of the horse. The background consists of a cloudy sky and a wind turbine.<|im_end|>",
+    "focus_query": "horse running around man with red shirt",
+    "sentence1": "<image> Segment the brown horse running in the field.",
+    "sentence2": "<image> Segment the man in the red jacket walking in front."
+  },
+  "39": {
+    "image_description": "The video features three gray cats sitting on a cat tree. The cat tree is positioned in the background, with a blue wall behind it. The cats are positioned in the center of the image, with one cat on the left, another in the middle, and the third cat on the right. The cats are all looking in different directions, with one of them looking up.<|im_end|>",
+    "focus_query": "cats playing",
+    "sentence1": "<image> Segment the gray cat on the left.",
+    "sentence2": "<image> Segment the gray cat in the middle.",
+    "sentence3": "<image> Segment the gray cat on the right."
+  },
+  "40": {
+    "image_description": "Sure, 1. The main objects in the video are a brown cow and a horse. The cow is standing in a pen, while the horse is tied to a fence. 2. The cow is positioned in the foreground, while the horse is in the background. 3. The cow is brown in color, while the horse is brown and white.<|im_end|>",
+    "focus_query": "tied up brown cow",
+    "sentence1": "<image> Segment the brown cow standing in the pen in the foreground."
+  },
+  "41": {
+    "image_description": "The video features two elephants in an enclosure, with a glass wall separating them. The elephant on the left is standing in the foreground, while the one on the right is positioned in the background. The glass wall is located in the middle of the scene, with the elephants standing in front of it.<|im_end|>",
+    "focus_query": "elephant in the background",
+    "sentence1": "<image> Segment the elephant positioned in the background on the right."
+  },
+  "42": {
+    "image_description": "The video features a large aquarium tank with two turtles inside. The tank is filled with water and has a green bottom. The tank is positioned in a room with a blue wall and a white door. The turtles are positioned on a green mat, with one turtle on the left side and the other on the right side of the tank.<|im_end|>",
+    "focus_query": "tortoise trying to go out of water",
+    "sentence1": "<image> Segment the turtle on the left side of the green mat.",
+    "sentence2": "<image> Segment the turtle on the right side of the green mat."
+  },
+  "43": {
+    "image_description": "Sure, the video shows two large animals, likely oxen, standing in a field. 1. The main objects are the oxen, with one being black and the other brown. 2. The black oxen is positioned on the left side of the frame, while the brown oxen are on the right. 3. The black oxen is facing the brown oxen, suggesting a confrontation or interaction between them.<|im_end|>",
+    "focus_query": "yawks fighting each other",
+    "sentence1": "<image> Segment the black ox on the left side.",
+    "sentence2": "<image> Segment the brown ox on the right side."
+  },
+  "44": {
+    "image_description": "The main objects are two pandas. One panda is sitting in the foreground eating bamboo. The second panda is lying down in the background. They are black and white.<|im_end|>",
+    "focus_query": "pandas eating food",
+    "sentence1": "<image> Segment the panda sitting in the foreground.",
+    "sentence2": "<image> Segment the panda lying down in the background."
+  },
+  "45": {
+    "image_description": "Sure, 1. The main objects in the video are three cows walking down a dirt road. 2. The cows are located in the center of the image, with one cow in the foreground and two others in the background. 3. The cows are walking on a dirt road surrounded by green vegetation, with a hillside in the background.<|im_end|>",
+    "focus_query": "cows walking",
+    "sentence1": "<image> Segment the cow in the foreground.",
+    "sentence2": "<image> Segment the cow in the background on the left.",
+    "sentence3": "<image> Segment the cow in the background on the right."
+  },
+  "46": {
+    "image_description": "The video shows a cat sitting on a windowsill. The cat is white with gray patches. Outside the window, a bird is flying. The bird is small and blue. There are trees in the distance.<|im_end|>",
+    "focus_query": "cat watching bird",
+    "sentence1": "<image> Segment the white cat with gray patches on the windowsill.",
+    "sentence2": "<image> Segment the small blue bird flying outside."
+  },
+  "47": {
+    "image_description": "Sure, 1. The main objects in the video are two bulls fighting in a dirt arena. 2. The bulls are brown in color, and one of them is wearing a blue shirt. 3. The bull on the left is in the foreground, while the bull on the right is slightly behind it.<|im_end|>",
+    "focus_query": "bulls fighting",
+    "sentence1": "<image> Segment the brown bull on the left in the foreground.",
+    "sentence2": "<image> Segment the brown bull on the right."
+  },
+  "48": {
+    "image_description": "The video features two white rabbits, one of which is a baby rabbit, eating green leaves. The baby rabbit is positioned in the center of the image, while the other is located on the left side. The baby rabbit is eating from a pile of green leaves, while the other is eating from a pile of green vegetables.<|im_end|>",
+    "focus_query": "rabits eating grass",
+    "sentence1": "<image> Segment the baby rabbit in the center.",
+    "sentence2": "<image> Segment the other white rabbit on the left side."
+  },
+  "49": {
+    "image_description": "Sure, the video shows two tigers in a grassy field. 1. The main objects are the two tigers, with one standing and the other on its back. 2. The standing tiger is positioned in the foreground, while the one on its back is in the background. 3. The standing tiger is wearing a white shirt, while the one on its back is wearing a black and white striped shirt.<|im_end|>",
+    "focus_query": "tigers fighting",
+    "sentence1": "<image> Segment the standing tiger in the foreground.",
+    "sentence2": "<image> Segment the tiger on its back in the background."
+  },
+  "50": {
+    "image_description": "The video features two horses, a black one and a brown one, standing on a dirt field. The black horse is positioned on the left side of the frame, while the brown horse is on the right. Both horses are standing close to each other, with the black horse slightly ahead of the brown horse.<|im_end|>",
+    "focus_query": "black horse",
+    "sentence1": "<image> Segment the black horse on the left side."
+  },
+  "51": {
+    "image_description": "Sure, 1. The main objects in the video are a lion and a zebra. 2. The lion is chasing the zebra in a grassy savannah. 3. The lion is light brown and positioned behind the zebra. The zebra has black and white stripes and is running towards the right side of the frame.<|im_end|>",
+    "focus_query": "Lion chasing zebra",
+    "sentence1": "<image> Segment the light brown lion positioned behind the zebra.",
+    "sentence2": "<image> Segment the zebra with black and white stripes running to the right."
+  },
+  "52": {
+    "image_description": "The video features a red sports car and a blue sedan driving on a highway. The red car is in the left lane, moving fast. The blue sedan is in the right lane, moving slower. The background shows a concrete barrier and green trees.<|im_end|>",
+    "focus_query": "red car overtaking blue car",
+    "sentence1": "<image> Segment the red sports car in the left lane.",
+    "sentence2": "<image> Segment the blue sedan in the right lane."
+  },
+  "53": {
+    "image_description": "Sure, the video shows people walking in a city square. A man in a red coat is on the left, and a woman in a blue coat is on the right. They are walking towards the camera on gray paving stones.<|im_end|>",
+    "focus_query": "crowd of people walking",
+    "sentence1": "<image> Segment the man in the red coat on the left.",
+    "sentence2": "<image> Segment the woman in the blue coat on the right."
+  },
+  "54": {
+    "image_description": "In the video, a woman is holding a white ceramic cup. The woman is wearing a grey sweater. Her hand is visible holding the handle of the cup. The cup is positioned in the center of the frame, with steam rising from it.<|im_end|>",
+    "focus_query": "Girl holding coffee cup",
+    "sentence1": "<image> Segment the woman wearing a grey sweater.",
+    "sentence2": "<image> Segment the white ceramic cup in the center."
+  },
+  "55": {
+    "image_description": "The video features two eagles fighting in the air. One eagle is positioned above the other, with its talons extended. The lower eagle is flipping upside down. Both birds are brown with white heads. The background is a clear blue sky.<|im_end|>",
+    "focus_query": "eagles fighting in sky",
+    "sentence1": "<image> Segment the eagle positioned above with extended talons.",
+    "sentence2": "<image> Segment the lower eagle flipping upside down."
+  },
+  "56": {
+    "image_description": "Sure, 1. The main objects are a boy and a soccer ball. 2. The boy is wearing a red jersey and black shorts. 3. He is kicking the white and black soccer ball on a green field. The boy is on the left, the ball is moving to the right.<|im_end|>",
+    "focus_query": "boy kicking football",
+    "sentence1": "<image> Segment the boy in the red jersey and black shorts.",
+    "sentence2": "<image> Segment the white and black soccer ball."
+  },
+  "57": {
+    "image_description": "The video shows a white cat sitting on a blue sofa. The cat is grooming its paw. Next to the cat is a red toy mouse. The cat is in the foreground, and the sofa backrest is in the background.<|im_end|>",
+    "focus_query": "cat cleaning itself",
+    "sentence1": "<image> Segment the white cat sitting on the blue sofa."
+  },
+  "58": {
+    "image_description": "Sure, the video features a yellow school bus stopping at a crosswalk. A child with a green backpack is walking in front of the bus. The bus is large and yellow. The child is small and wearing a blue jacket.<|im_end|>",
+    "focus_query": "kid crossing in front of bus",
+    "sentence1": "<image> Segment the child wearing a blue jacket and green backpack.",
+    "sentence2": "<image> Segment the large yellow school bus stopped at the crosswalk."
+  },
+  "59": {
+    "image_description": "The video features two flamingos standing in shallow water. One flamingo is on the left and is standing on one leg. The other flamingo is on the right. They are pink and the water is blue.<|im_end|>",
+    "focus_query": "flock of flamingos",
+    "sentence1": "<image> Segment the pink flamingo standing on one leg on the left.",
+    "sentence2": "<image> Segment the pink flamingo on the right."
+  },
+  "60": {
+    "image_description": "Sure, 1. The main objects are a man and a dog. 2. The man is throwing a frisbee. The man is wearing a white t-shirt. 3. The dog is jumping to catch it. The dog is a golden retriever. The scene is a beach.<|im_end|>",
+    "focus_query": "dog catching frisbee from man",
+    "sentence1": "<image> Segment the man wearing a white t-shirt.",
+    "sentence2": "<image> Segment the golden retriever jumping.",
+    "sentence3": "<image> Segment the frisbee being thrown."
+  },
+  "61": {
+    "image_description": "The video features a chef chopping vegetables on a wooden board. The chef's hands are visible holding a knife. There are red peppers and green cucumbers on the board. The knife is silver. The hands are moving quickly.<|im_end|>",
+    "focus_query": "cutting vegetables",
+    "sentence1": "<image> Segment the hands of the chef holding the knife.",
+    "sentence2": "<image> Segment the red peppers and green cucumbers on the board.",
+    "sentence3": "<image> Segment the silver knife."
+  },
+  "62": {
+    "image_description": "Sure, the video shows two motorbikes racing on a track. The first bike is green and black, positioned on the left. The second bike is orange, positioned on the right. Both riders are leaning into a curve.<|im_end|>",
+    "focus_query": "green bike and orange bike racing",
+    "sentence1": "<image> Segment the green and black motorbike on the left.",
+    "sentence2": "<image> Segment the orange motorbike on the right."
+  },
+  "63": {
+    "image_description": "In the video, a brown bear is seen standing in a river, catching a salmon. The bear is wet and large. The salmon is silver and is in the bear's mouth. The water is rushing around the bear's legs.<|im_end|>",
+    "focus_query": "bear eating fish",
+    "sentence1": "<image> Segment the large wet brown bear in the river.",
+    "sentence2": "<image> Segment the silver salmon in the bear's mouth."
+  },
+  "64": {
+    "image_description": "Sure, 1. The main objects are a woman and a horse. 2. The woman is brushing the horse. The woman is wearing a plaid shirt. 3. The horse is white and standing still. The scene is inside a stable.<|im_end|>",
+    "focus_query": "girl grooming white horse",
+    "sentence1": "<image> Segment the woman wearing a plaid shirt.",
+    "sentence2": "<image> Segment the white horse standing in the stable."
+  },
+  "65": {
+    "image_description": "The video features a baby crawling on a carpet. The baby is wearing a yellow onesie. There is a colorful ball in front of the baby. The baby is reaching for the ball with the right hand.<|im_end|>",
+    "focus_query": "baby playing with ball",
+    "sentence1": "<image> Segment the baby wearing a yellow onesie.",
+    "sentence2": "<image> Segment the colorful ball in front of the baby."
+  },
+  "66": {
+    "image_description": "The video shows a helicopter landing on a helipad. The helicopter is red with black blades. The blades are spinning. The helipad is marked with a yellow 'H'. The background shows a city skyline.<|im_end|>",
+    "focus_query": "helicopter landing",
+    "sentence1": "<image> Segment the red helicopter with spinning black blades."
+  },
+  "67": {
+    "image_description": "Sure, 1. The main objects are two boxers in a ring. 2. The boxer on the left is wearing red shorts. The boxer on the right is wearing blue shorts. 3. The boxer in red is punching the boxer in blue. The background is a crowd of people.<|im_end|>",
+    "focus_query": "boxer in red hitting boxer in blue",
+    "sentence1": "<image> Segment the boxer wearing red shorts on the left.",
+    "sentence2": "<image> Segment the boxer wearing blue shorts on the right."
+  },
+  "68": {
+    "image_description": "The video features a large cargo ship moving through the ocean. The ship is loaded with colorful containers. The ship is red and black at the hull. The water is dark blue with white waves.<|im_end|>",
+    "focus_query": "ship carrying containers",
+    "sentence1": "<image> Segment the large red and black cargo ship loaded with colorful containers."
+  },
+  "69": {
+    "image_description": "Sure, the video shows a squirrel eating a nut on a tree branch. The squirrel is grey with a bushy tail. It is holding a brown nut in its paws. The branch is brown and has green leaves.<|im_end|>",
+    "focus_query": "squirrel holding nut",
+    "sentence1": "<image> Segment the grey squirrel with a bushy tail.",
+    "sentence2": "<image> Segment the brown nut held in the paws."
+  },
+  "70": {
+    "image_description": "The video features two dancers performing on stage. The male dancer is lifting the female dancer. The male is wearing black, and the female is wearing a white dress. They are illuminated by a spotlight.<|im_end|>",
+    "focus_query": "man lifting woman",
+    "sentence1": "<image> Segment the male dancer wearing black.",
+    "sentence2": "<image> Segment the female dancer wearing a white dress."
+  },
+  "71": {
+    "image_description": "Sure, 1. The main objects are three dogs running in a park. 2. There is a brown dog, a black dog, and a spotted dog. 3. The brown dog is leading the pack. The spotted dog is in the back. They are running on green grass.<|im_end|>",
+    "focus_query": "dogs racing",
+    "sentence1": "<image> Segment the brown dog leading the pack.",
+    "sentence2": "<image> Segment the black dog in the middle.",
+    "sentence3": "<image> Segment the spotted dog in the back."
+  },
+  "72": {
+    "image_description": "The video shows a person typing on a laptop. Only the hands and the keyboard are visible. The hands have painted nails. The laptop is silver. The table is made of wood.<|im_end|>",
+    "focus_query": "hands typing on keyboard",
+    "sentence1": "<image> Segment the hands with painted nails.",
+    "sentence2": "<image> Segment the silver laptop keyboard."
+  },
+  "73": {
+    "image_description": "The video features a giraffe eating leaves from a tall tree. The giraffe is tall with brown spots. The tree has green leaves and is on the right side of the frame. The sky is blue.<|im_end|>",
+    "focus_query": "giraffe eating tree",
+    "sentence1": "<image> Segment the tall giraffe with brown spots.",
+    "sentence2": "<image> Segment the tree with green leaves on the right."
+  },
+  "74": {
+    "image_description": "Sure, 1. The main objects are a blue tractor and a field. 2. The tractor is pulling a plow. The tractor is moving away from the camera. 3. The field is brown soil. There is dust rising behind the plow.<|im_end|>",
+    "focus_query": "tractor plowing field",
+    "sentence1": "<image> Segment the blue tractor moving away from the camera.",
+    "sentence2": "<image> Segment the plow attached to the tractor."
+  },
+  "75": {
+    "image_description": "The video features two swans forming a heart shape with their necks. They are swimming in a pond. The swan on the left is facing right, and the swan on the right is facing left. They are both white. The water is calm.<|im_end|>",
+    "focus_query": "swans making heart",
+    "sentence1": "<image> Segment the white swan on the left.",
+    "sentence2": "<image> Segment the white swan on the right."
+  },
+  "76": {
+    "image_description": "Sure, the video shows a man riding a skateboard on a ramp. The man is wearing a helmet and knee pads. He is in mid-air above the ramp. The skateboard is black with red wheels.<|im_end|>",
+    "focus_query": "skater jumping",
+    "sentence1": "<image> Segment the man wearing a helmet and knee pads.",
+    "sentence2": "<image> Segment the black skateboard with red wheels."
+  },
+  "77": {
+    "image_description": "The video features a cat and a dog sleeping together on a rug. The cat is orange and curled up. The dog is a large brown labrador stretched out. The cat is resting against the dog's back.<|im_end|>",
+    "focus_query": "cat and dog sleeping",
+    "sentence1": "<image> Segment the orange curled-up cat.",
+    "sentence2": "<image> Segment the large brown labrador dog."
+  },
+  "78": {
+    "image_description": "Sure, 1. The main objects are a police car and a thief. 2. The police car is blue and white with flashing lights. The thief is running away wearing black clothes. 3. The police car is in the background, the thief is in the foreground.<|im_end|>",
+    "focus_query": "police chasing thief",
+    "sentence1": "<image> Segment the blue and white police car in the background.",
+    "sentence2": "<image> Segment the running person wearing black clothes in the foreground."
+  },
+  "79": {
+    "image_description": "The video shows two bees flying near a hive. One bee is positioned near the top of the hive. The second bee is near the bottom entrance. The hive is hanging from a branch.<|im_end|>",
+    "focus_query": "bees around hive",
+    "sentence1": "<image> Segment the bee flying near the top of the hive.",
+    "sentence2": "<image> Segment the bee flying near the bottom entrance.",
+    "sentence3": "<image> Segment the hive hanging from the branch."
+  },
+  "80": {
+    "image_description": "The video features a tennis player hitting a ball. The player is female, wearing a white skirt and visor. She is swinging a racket. The ball is yellow and is in the air near the racket.<|im_end|>",
+    "focus_query": "woman playing tennis",
+    "sentence1": "<image> Segment the female player wearing a white skirt and visor.",
+    "sentence2": "<image> Segment the tennis racket being swung.",
+    "sentence3": "<image> Segment the yellow tennis ball."
+  },
+  "81": {
+    "image_description": "Sure, 1. The video shows a campfire burning at night. 2. There are people sitting around it, but they are dark silhouettes. 3. The fire is orange and yellow, located in the center. There are logs at the base of the fire.<|im_end|>",
+    "focus_query": "camp fire",
+    "sentence1": "<image> Segment the orange and yellow fire with logs in the center."
+  },
+  "82": {
+    "image_description": "The video features two kangaroos boxing in the outback. The kangaroo on the left is slightly taller. The kangaroo on the right is leaning back. They are both brown. The ground is red dirt.<|im_end|>",
+    "focus_query": "kangaroos fighting",
+    "sentence1": "<image> Segment the taller brown kangaroo on the left.",
+    "sentence2": "<image> Segment the brown kangaroo on the right leaning back."
+  },
+  "83": {
+    "image_description": "Sure, the video shows a surfer riding a large wave. The surfer is wearing a black wetsuit. The surfboard is white. The wave is blue and curling over the surfer.<|im_end|>",
+    "focus_query": "man surfing",
+    "sentence1": "<image> Segment the surfer wearing a black wetsuit.",
+    "sentence2": "<image> Segment the white surfboard."
+  },
+  "84": {
+    "image_description": "The video features a mother duck and her ducklings walking in a line. The mother duck is brown and is in the front. Four small yellow ducklings are following her. One duckling is right behind her, and the others follow sequentially.<|im_end|>",
+    "focus_query": "duck with babies",
+    "sentence1": "<image> Segment the brown mother duck in the front.",
+    "sentence2": "<image> Segment the first yellow duckling behind the mother.",
+    "sentence3": "<image> Segment the other yellow ducklings following."
+  },
+  "85": {
+    "image_description": "Sure, 1. The main objects are a hand and a pen. 2. The hand is holding a blue pen and writing on paper. 3. The paper has text on it. The hand is positioned on the right side.<|im_end|>",
+    "focus_query": "writing with pen",
+    "sentence1": "<image> Segment the hand holding the blue pen.",
+    "sentence2": "<image> Segment the blue pen."
+  },
+  "86": {
+    "image_description": "The video shows two monkeys grooming each other. The monkey on the left is picking through the fur of the monkey on the right. They are sitting on a stone wall. Both monkeys are macaques with brown fur.<|im_end|>",
+    "focus_query": "monkey cleaning another monkey",
+    "sentence1": "<image> Segment the monkey on the left grooming the other.",
+    "sentence2": "<image> Segment the monkey on the right sitting on the wall."
+  },
+  "87": {
+    "image_description": "The video features a train crossing a bridge. The train is red and long. The bridge is made of grey steel. There is a river flowing underneath the bridge.<|im_end|>",
+    "focus_query": "train on bridge",
+    "sentence1": "<image> Segment the long red train.",
+    "sentence2": "<image> Segment the grey steel bridge."
+  },
+  "88": {
+    "image_description": "Sure, 1. The video shows a goalkeeper diving to save a ball. 2. The goalkeeper is wearing a green jersey and gloves. 3. The ball is white and is in the air to the left of the goalkeeper.<|im_end|>",
+    "focus_query": "goalkeeper saving goal",
+    "sentence1": "<image> Segment the goalkeeper in the green jersey and gloves.",
+    "sentence2": "<image> Segment the white ball in the air."
+  },
+  "89": {
+    "image_description": "The video features a panda eating bamboo. The panda is sitting down, holding a green bamboo stalk. The panda is black and white. The background is a blurry forest.<|im_end|>",
+    "focus_query": "panda eating",
+    "sentence1": "<image> Segment the black and white panda sitting down.",
+    "sentence2": "<image> Segment the green bamboo stalk being eaten."
+  },
+  "90": {
+    "image_description": "Sure, the video shows a woman doing yoga on a mat. She is in a warrior pose. She is wearing pink leggings and a black top. The mat is purple. The room has a wooden floor.<|im_end|>",
+    "focus_query": "girl doing yoga",
+    "sentence1": "<image> Segment the woman wearing pink leggings and a black top.",
+    "sentence2": "<image> Segment the purple yoga mat."
+  },
+  "91": {
+    "image_description": "The video features two parrots sitting on a perch. The parrot on the left is red and blue (Macaw). The parrot on the right is grey. They are looking at each other.<|im_end|>",
+    "focus_query": "colorful bird and grey bird",
+    "sentence1": "<image> Segment the red and blue parrot on the left.",
+    "sentence2": "<image> Segment the grey parrot on the right."
+  },
+  "92": {
+    "image_description": "Sure, 1. The main objects are a bicycle and a rider. 2. The rider is delivering food. He has a large square orange backpack. 3. He is riding a black e-bike on a city street.<|im_end|>",
+    "focus_query": "delivery guy on bike",
+    "sentence1": "<image> Segment the rider with the large orange backpack.",
+    "sentence2": "<image> Segment the black e-bike."
+  },
+  "93": {
+    "image_description": "The video features two penguins standing on ice. The penguin on the left is looking forward. The penguin on the right has its head turned. They are black and white. Snow is falling.<|im_end|>",
+    "focus_query": "penguins in snow",
+    "sentence1": "<image> Segment the penguin on the left looking forward.",
+    "sentence2": "<image> Segment the penguin on the right with its head turned."
+  },
+  "94": {
+    "image_description": "Sure, the video shows a construction worker operating a jackhammer. The worker is wearing a yellow hard hat and an orange vest. The jackhammer is large and silver. The ground is breaking up.<|im_end|>",
+    "focus_query": "man using jackhammer",
+    "sentence1": "<image> Segment the worker wearing a yellow hard hat and orange vest.",
+    "sentence2": "<image> Segment the large silver jackhammer."
+  },
+  "95": {
+    "image_description": "The video features two deer fighting in the woods. They are locking antlers. The deer on the left is pushing forward. The deer on the right is holding its ground. They are brown bucks.<|im_end|>",
+    "focus_query": "deers fighting with horns",
+    "sentence1": "<image> Segment the brown deer on the left pushing forward.",
+    "sentence2": "<image> Segment the brown deer on the right holding its ground."
+  },
+  "96": {
+    "image_description": "Sure, 1. The main object is a drone flying in the sky. 2. The drone is white and has four propellers. 3. It is hovering above a park. The sky is blue with some clouds.<|im_end|>",
+    "focus_query": "white drone flying",
+    "sentence1": "<image> Segment the white drone with four propellers."
+  },
+  "97": {
+    "image_description": "The video shows a shark swimming near a diver. The shark is grey and large. It is swimming to the left. The diver is in a cage in the background. The water is deep blue.<|im_end|>",
+    "focus_query": "shark near cage",
+    "sentence1": "<image> Segment the large grey shark swimming to the left.",
+    "sentence2": "<image> Segment the diver inside the cage in the background."
+  },
+  "98": {
+    "image_description": "The video features a basketball player dunking the ball. The player is wearing a purple jersey. He is hanging onto the rim with one hand. The ball is going through the net. The rim is orange.<|im_end|>",
+    "focus_query": "man dunking basketball",
+    "sentence1": "<image> Segment the player wearing a purple jersey hanging on the rim.",
+    "sentence2": "<image> Segment the basketball going through the net.",
+    "sentence3": "<image> Segment the orange rim."
+  },
+  "99": {
+    "image_description": "Sure, 1. The main objects are a cat and a laser pointer dot. 2. The cat is black and is chasing a red dot on the floor. 3. The cat is pouncing. The floor is wooden.<|im_end|>",
+    "focus_query": "cat chasing red light",
+    "sentence1": "<image> Segment the black cat pouncing.",
+    "sentence2": "<image> Segment the red laser dot on the floor."
+  },
+  "100": {
+    "image_description": "The video features cars stopped at an intersection. A red car is in the left lane, and a white car is in the right lane. The traffic light above them is red.<|im_end|>",
+    "focus_query": "cars stopped at light",
+    "sentence1": "<image> Segment the red car in the left lane.",
+    "sentence2": "<image> Segment the white car in the right lane.",
+    "sentence3": "<image> Segment the red traffic light."
+  },
+  "101": {
+    "focus_query": "man holding suitcase near taxi",
+    "image_description": "The video shows a man standing on the left side of the frame holding a brown suitcase. A yellow taxi is positioned on the right side of the street. The man is wearing a blue jacket and is facing the taxi. The background includes a row of buildings and a cloudy sky. The taxi is slightly ahead of the man.<|im_end|>",
+    "sentence1": "<image> Segment the man wearing a blue jacket holding the brown suitcase on the left.",
+    "sentence2": "<image> Segment the yellow taxi positioned on the right side of the street."
+  },
+  "102": {
+    "focus_query": "two cats chasing each other",
+    "image_description": "The video shows two cats in a living room. The first cat is orange and is positioned in the foreground running toward the right. The second cat is gray and is slightly behind the orange cat, also running. A sofa is in the background, and the floor is wooden. The cats look playful and in motion.<|im_end|>",
+    "sentence1": "<image> Segment the orange cat running in the foreground.",
+    "sentence2": "<image> Segment the gray cat chasing behind the orange cat."
+  },
+  "103": {
+    "focus_query": "car driving behind bus",
+    "image_description": "The video shows a large blue bus driving down a main road. Behind the bus is a black car following closely. The bus is on the left lane while the black car is centered. Buildings and traffic lights are visible in the distance. The road surface is slightly wet.<|im_end|>",
+    "sentence1": "<image> Segment the blue bus driving in the left lane.",
+    "sentence2": "<image> Segment the black car following behind the bus."
+  },
+  "104": {
+    "focus_query": "dog biting stick",
+    "image_description": "Sure, the video shows a brown dog standing on a grassy field. The dog is holding a long wooden stick in its mouth. The dog is positioned toward the center of the frame with trees behind it. The grass appears slightly uneven and bright green.<|im_end|>",
+    "sentence1": "<image> Segment the brown dog standing in the center holding the wooden stick."
+  },
+  "105": {
+    "focus_query": "child running with balloon",
+    "image_description": "The video shows a young child running across an open park. The child is holding a red balloon in their right hand. The balloon is floating slightly above the child's head. Trees, benches, and a walkway are visible in the background. The child is wearing a yellow shirt and is positioned slightly to the left.<|im_end|>",
+    "sentence1": "<image> Segment the child wearing a yellow shirt running.",
+    "sentence2": "<image> Segment the red balloon floating above the child's hand."
+  },
+  "106": {
+    "image_description": "The video shows a lake surrounded by tall grass. Two white birds are flying above the water. One bird is on the left, and the other is on the right. The water reflects the birds.<|im_end|>",
+    "focus_query": "birds flying above lake",
+    "sentence1": "<image> Segment the white bird flying on the left.",
+    "sentence2": "<image> Segment the white bird flying on the right."
+  },
+  "107": {
+    "focus_query": "cow and calf walking",
+    "image_description": "The video shows a large brown cow walking slowly on a dirt path. Next to it, toward the right side, is a smaller calf following. Both are moving forward in the same direction. There are small bushes around the path. The sky is slightly bright.<|im_end|>",
+    "sentence1": "<image> Segment the brown cow walking on the dirt path.",
+    "sentence2": "<image> Segment the smaller calf walking beside the cow."
+  },
+  "108": {
+    "focus_query": "horse drinking water",
+    "image_description": "Sure, the video shows a black horse standing at a metal water trough. The horse has its head lowered and is drinking. The trough is positioned on the right side. Behind the horse is a wooden fence and a dirt field. The horse’s body is facing slightly left.<|im_end|>",
+    "sentence1": "<image> Segment the black horse drinking from the metal trough."
+  },
+  "109": {
+    "image_description": "The video shows a woman in a green coat kneeling on a stone walkway. Two pigeons are near her feet. One pigeon is gray, and the other is white with gray spots. A fountain is visible in the background.<|im_end|>",
+    "focus_query": "woman feeding pigeons",
+    "sentence1": "<image> Segment the woman wearing a green coat kneeling.",
+    "sentence2": "<image> Segment the gray pigeon near her feet.",
+    "sentence3": "<image> Segment the white pigeon with gray spots."
+  },
+  "110": {
+    "focus_query": "robot arm picking red box",
+    "image_description": "The video shows a mechanical robotic arm inside a warehouse. The arm is positioned in the center and is grabbing a small red box placed on a conveyor belt. The arm’s gripper is partially closed around the box. Shelves and other boxes are visible in the background.<|im_end|>",
+    "sentence1": "<image> Segment the robotic arm in the center.",
+    "sentence2": "<image> Segment the small red box on the conveyor belt."
+  },
+  "111": {
+    "focus_query": "three ducks walking in row",
+    "image_description": "The video shows three ducks walking on a paved path. The first duck is white, the second is brown, and the third is also brown but smaller. They are following each other in a neat line. Grass and a pond railing appear to the left side.<|im_end|>",
+    "sentence1": "<image> Segment the first white duck walking in the row.",
+    "sentence2": "<image> Segment the second brown duck following.",
+    "sentence3": "<image> Segment the third smaller brown duck at the back."
+  },
+  "112": {
+    "focus_query": "man and woman arguing on street",
+    "image_description": "The video shows a man and a woman standing on a sidewalk. The man is on the left wearing a gray hoodie, and the woman is on the right wearing a red jacket. They are facing each other, with expressive gestures. Cars are parked behind them.<|im_end|>",
+    "sentence1": "<image> Segment the man in the gray hoodie.",
+    "sentence2": "<image> Segment the woman in the red jacket."
+  },
+  "113": {
+    "focus_query": "goat jumping on rock",
+    "image_description": "The video shows a small white goat jumping onto a gray rock. The rock is positioned in the center. The goat begins on the left side and leaps upward. Behind the rock is a grassy field and a fence. The goat's legs are slightly extended.<|im_end|>",
+    "sentence1": "<image> Segment the small white goat jumping onto the rock."
+  },
+  "114": {
+    "focus_query": "motorcycle overtaking car",
+    "image_description": "Sure, the video shows a red motorcycle driving on the right lane. A silver car is ahead but is being overtaken as the motorcycle moves slightly left. Road markings and street poles are visible. Both vehicles are moving fast.<|im_end|>",
+    "sentence1": "<image> Segment the red motorcycle overtaking.",
+    "sentence2": "<image> Segment the silver car being passed."
+  },
+  "115": {
+    "focus_query": "lion roaring at cub",
+    "image_description": "The video shows a large lion standing on the left side of the frame. Its mouth is open as if roaring. On the right side is a small cub looking upward at the lion. The background shows dry grass and scattered stones.<|im_end|>",
+    "sentence1": "<image> Segment the large lion on the left.",
+    "sentence2": "<image> Segment the cub on the right looking up."
+  },
+  "116": {
+    "focus_query": "woman opening umbrella",
+    "image_description": "The video shows a woman wearing a white coat standing in light rain. She is holding a folded black umbrella and is in the process of opening it. She is on the left side of the frame. Trees and wet pavement are behind her.<|im_end|>",
+    "sentence1": "<image> Segment the woman in the white coat.",
+    "sentence2": "<image> Segment the black umbrella she is opening."
+  },
+  "117": {
+    "focus_query": "cat sleeping on keyboard",
+    "image_description": "The video shows a fluffy gray cat lying across a computer keyboard. The cat is centered in the frame, its eyes closed. The keyboard is black and rests on a table. A monitor is visible behind the cat showing a faint blue screen.<|im_end|>",
+    "sentence1": "<image> Segment the fluffy gray cat sleeping on the keyboard."
+  },
+  "118": {
+    "focus_query": "fish swimming near rocks",
+    "image_description": "Sure, the video shows an aquarium with several rocks on the bottom. A blue fish swims toward the left side while a yellow fish moves near the rocks on the right. Bubbles are rising in the background. Water is clear.<|im_end|>",
+    "sentence1": "<image> Segment the blue fish swimming left.",
+    "sentence2": "<image> Segment the yellow fish near the rocks."
+  },
+  "119": {
+    "focus_query": "child petting dog",
+    "image_description": "The video shows a small child sitting on grass. A golden-brown dog is next to them. The child places their hand on the dog's head. The dog looks relaxed. Trees are in the far background.<|im_end|>",
+    "sentence1": "<image> Segment the child sitting on the grass.",
+    "sentence2": "<image> Segment the golden-brown dog being petted."
+  },
+  "120": {
+    "focus_query": "two zebras drinking water",
+    "image_description": "The video shows two zebras standing side by side at a shallow waterhole. Both have their heads lowered into the water. One zebra is slightly closer to the camera, positioned on the left. The other is on the right. Dry savanna surrounds them.<|im_end|>",
+    "sentence1": "<image> Segment the zebra on the left drinking water.",
+    "sentence2": "<image> Segment the zebra on the right drinking water."
+  },
+  "121": {
+    "focus_query": "truck carrying logs",
+    "image_description": "The video shows a large red truck driving along a forest road. The truck bed is filled with logs. The truck occupies the center of the frame. Trees surround both sides of the road.<|im_end|>",
+    "sentence1": "<image> Segment the red truck driving with logs.",
+    "sentence2": "<image> Segment the logs stacked on the truck."
+  },
+  "122": {
+    "focus_query": "two kids jumping rope",
+    "image_description": "Sure, the video shows two children holding a long rope. One child is on the left wearing blue, and the other on the right wearing green. In the middle, another child jumps over the rope. They are in a playground with sand and swings behind them.<|im_end|>",
+    "sentence1": "<image> Segment the child in the middle jumping.",
+    "sentence2": "<image> Segment the child holding the rope on the left.",
+    "sentence3": "<image> Segment the child holding the rope on the right."
+  },
+  "123": {
+    "image_description": "The video shows two penguins sliding on their bellies across an icy surface. The front penguin is sliding fast. The second penguin is following close behind. Snowy hills appear in the background.<|im_end|>",
+    "focus_query": "penguins sliding on ice",
+    "sentence1": "<image> Segment the front penguin sliding fast.",
+    "sentence2": "<image> Segment the second penguin following behind."
+  },
+  "124": {
+    "focus_query": "camel walking across desert",
+    "image_description": "The video shows a single camel walking slowly through sandy desert terrain. The camel is positioned slightly to the right, facing left. The sky is bright and the sand dunes extend into the background.<|im_end|>",
+    "sentence1": "<image> Segment the camel walking across the sand."
+  },
+  "125": {
+    "focus_query": "man lifting box onto shelf",
+    "image_description": "The video shows a man in a warehouse lifting a cardboard box. The man is on the left, holding the box and raising it toward a metal shelf on the right. Other boxes are stacked in the background. Lighting is industrial and bright.<|im_end|>",
+    "sentence1": "<image> Segment the man lifting the box.",
+    "sentence2": "<image> Segment the cardboard box being placed on the shelf."
+  },
+  "126": {
+    "focus_query": "cat and dog sleeping on rug",
+    "image_description": "The video shows a cat and a dog sleeping on a rug. The cat is small and black, curled up on the left. The dog is large and brown, stretched out on the right. The rug is beige and patterned.<|im_end|>",
+    "sentence1": "<image> Segment the small black cat curled up on the left.",
+    "sentence2": "<image> Segment the large brown dog stretched out on the right."
+  },
+  "127": {
+    "focus_query": "woman reading book in park",
+    "image_description": "The video shows a woman sitting on a park bench reading a book. She is wearing a red dress. The book is open in her hands. Trees are visible in the background.<|im_end|>",
+    "sentence1": "<image> Segment the woman in the red dress sitting on the bench.",
+    "sentence2": "<image> Segment the open book in her hands."
+  },
+  "128": {
+    "focus_query": "boy flying kite",
+    "image_description": "The video shows a boy running in a field flying a kite. The boy is wearing a blue shirt and is on the left. The kite is diamond-shaped and colorful, flying high on the right. The sky is blue with white clouds.<|im_end|>",
+    "sentence1": "<image> Segment the boy in the blue shirt running.",
+    "sentence2": "<image> Segment the colorful diamond-shaped kite."
+  },
+  "129": {
+    "focus_query": "two cars racing",
+    "image_description": "The video shows two cars racing on a track. The car on the left is red. The car on the right is blue. They are moving fast around a curve.<|im_end|>",
+    "sentence1": "<image> Segment the red car on the left.",
+    "sentence2": "<image> Segment the blue car on the right."
+  },
+  "130": {
+    "focus_query": "girl playing guitar",
+    "image_description": "The video shows a girl sitting on a chair playing an acoustic guitar. She is wearing a floral dress. Her fingers are strumming the strings. The background is a blurred living room.<|im_end|>",
+    "sentence1": "<image> Segment the girl in the floral dress playing guitar.",
+    "sentence2": "<image> Segment the acoustic guitar."
+  },
+  "131": {
+    "focus_query": "man drinking water",
+    "image_description": "The video shows a man holding a glass of water. He is bringing the glass to his lips. He is wearing a white shirt. The glass is clear and half full.<|im_end|>",
+    "sentence1": "<image> Segment the man in the white shirt.",
+    "sentence2": "<image> Segment the glass of water."
+  },
+  "132": {
+    "focus_query": "dog catching ball",
+    "image_description": "The video shows a dog jumping to catch a ball. The dog is black and white. The ball is yellow and is in mid-air near the dog's mouth. The background is a grassy park.<|im_end|>",
+    "sentence1": "<image> Segment the black and white dog jumping.",
+    "sentence2": "<image> Segment the yellow ball in mid-air."
+  },
+  "133": {
+    "focus_query": "woman riding bicycle",
+    "image_description": "The video shows a woman riding a bicycle on a path. She is wearing a helmet and a purple jacket. The bicycle is silver. Trees line the path.<|im_end|>",
+    "sentence1": "<image> Segment the woman in the purple jacket riding.",
+    "sentence2": "<image> Segment the silver bicycle."
+  },
+  "134": {
+    "focus_query": "two birds on branch",
+    "image_description": "The video shows two birds sitting on a tree branch. The bird on the left is red. The bird on the right is yellow. The branch is brown with green leaves.<|im_end|>",
+    "sentence1": "<image> Segment the red bird on the left.",
+    "sentence2": "<image> Segment the yellow bird on the right."
+  },
+  "135": {
+    "focus_query": "chef cooking pasta",
+    "image_description": "The video shows a chef stirring a pot of pasta. The chef is wearing a white uniform. The pot is large and silver, sitting on a stove. Steam is rising from the pot.<|im_end|>",
+    "sentence1": "<image> Segment the chef in the white uniform.",
+    "sentence2": "<image> Segment the large silver pot of pasta."
+  },
+  "136": {
+    "focus_query": "cat chasing mouse toy",
+    "image_description": "The video shows a cat chasing a toy mouse. The cat is orange and is running to the right. The toy mouse is gray and is on the floor in front of the cat.<|im_end|>",
+    "sentence1": "<image> Segment the orange cat running.",
+    "sentence2": "<image> Segment the gray toy mouse on the floor."
+  },
+  "137": {
+    "focus_query": "man working on laptop",
+    "image_description": "The video shows a man sitting at a desk working on a laptop. He is wearing glasses and a blue shirt. The laptop is open in front of him. There is a coffee cup on the desk.<|im_end|>",
+    "sentence1": "<image> Segment the man in the blue shirt working.",
+    "sentence2": "<image> Segment the laptop on the desk."
+  },
+  "138": {
+    "focus_query": "girl dancing",
+    "image_description": "The video shows a girl dancing in a studio. She is wearing a pink leotard and ballet shoes. She is performing a pirouette. Mirrors are visible in the background.<|im_end|>",
+    "sentence1": "<image> Segment the girl in the pink leotard dancing."
+  },
+  "139": {
+    "focus_query": "horse jumping fence",
+    "image_description": "The video shows a horse jumping over a wooden fence. The horse is brown with a black mane. The fence is white. The background is a green field.<|im_end|>",
+    "sentence1": "<image> Segment the brown horse jumping.",
+    "sentence2": "<image> Segment the white wooden fence."
+  },
+  "140": {
+    "focus_query": "boy eating apple",
+    "image_description": "The video shows a boy holding a red apple. He is taking a bite out of it. He is wearing a green t-shirt. The background is a kitchen.<|im_end|>",
+    "sentence1": "<image> Segment the boy in the green t-shirt.",
+    "sentence2": "<image> Segment the red apple."
+  },
+  "141": {
+    "focus_query": "two fish in tank",
+    "image_description": "The video shows two fish swimming in a tank. The fish on the left is orange. The fish on the right is blue. There are green plants in the tank.<|im_end|>",
+    "sentence1": "<image> Segment the orange fish on the left.",
+    "sentence2": "<image> Segment the blue fish on the right."
+  },
+  "142": {
+    "focus_query": "woman driving car",
+    "image_description": "The video shows a woman driving a car. She is holding the steering wheel. She is wearing sunglasses. The car interior is beige. The road is visible through the windshield.<|im_end|>",
+    "sentence1": "<image> Segment the woman driving with sunglasses.",
+    "sentence2": "<image> Segment the steering wheel."
+  },
+  "143": {
+    "focus_query": "dog sleeping on bed",
+    "image_description": "The video shows a dog sleeping on a bed. The dog is small and white. It is curled up on a blue blanket. The bed has white pillows.<|im_end|>",
+    "sentence1": "<image> Segment the small white dog sleeping."
+  },
+  "144": {
+    "focus_query": "man playing soccer",
+    "image_description": "The video shows a man kicking a soccer ball. He is wearing a red jersey and shorts. The ball is black and white. He is on a green field.<|im_end|>",
+    "sentence1": "<image> Segment the man in the red jersey kicking.",
+    "sentence2": "<image> Segment the black and white soccer ball."
+  },
+  "145": {
+    "focus_query": "cat looking out window",
+    "image_description": "The video shows a cat sitting on a windowsill looking out. The cat is black. Outside, there are trees and a street. The curtains are white.<|im_end|>",
+    "sentence1": "<image> Segment the black cat sitting on the windowsill."
+  },
+  "146": {
+    "focus_query": "girl reading book",
+    "image_description": "The video shows a girl sitting in a chair reading a book. She is wearing a yellow dress. The book is large with a colorful cover. A lamp is next to her.<|im_end|>",
+    "sentence1": "<image> Segment the girl in the yellow dress reading.",
+    "sentence2": "<image> Segment the large book with colorful cover."
+  },
+  "147": {
+    "focus_query": "two monkeys in tree",
+    "image_description": "The video shows two monkeys sitting in a tree. The monkey on the top branch is eating a fruit. The monkey on the lower branch is looking down. They are brown.<|im_end|>",
+    "sentence1": "<image> Segment the monkey on the top branch eating.",
+    "sentence2": "<image> Segment the monkey on the lower branch looking down."
+  },
+  "148": {
+    "focus_query": "boy riding scooter",
+    "image_description": "The video shows a boy riding a scooter on a sidewalk. He is wearing a helmet and knee pads. The scooter is red. Houses are in the background.<|im_end|>",
+    "sentence1": "<image> Segment the boy wearing helmet and knee pads.",
+    "sentence2": "<image> Segment the red scooter."
+  },
+  "149": {
+    "focus_query": "woman watering plants",
+    "image_description": "The video shows a woman watering plants in a garden. She is holding a green watering can. The plants are in pots. She is wearing a hat.<|im_end|>",
+    "sentence1": "<image> Segment the woman wearing a hat watering plants.",
+    "sentence2": "<image> Segment the green watering can."
+  },
+  "150": {
+    "focus_query": "dog running on beach",
+    "image_description": "The video shows a dog running on a sandy beach. The dog is brown and happy. The ocean waves are in the background. The sky is blue.<|im_end|>",
+    "sentence1": "<image> Segment the brown dog running on the beach."
+  },
+  "151": {
+    "focus_query": "Woman walking dog",
+    "image_description": "The video shows a woman in a blue jacket walking a small brown dog on a leash. The dog is pulling slightly forward while the woman maintains control of the leash. They are walking on a paved path with trees in the background. The woman is wearing jeans and white shoes.<|im_end|>",
+    "sentence1": "<image> Segment the woman in the blue jacket walking on the paved path.",
+    "sentence2": "<image> Segment the small brown dog pulling on the leash."
+  },
+  "152": {
+    "focus_query": "Two cats playing with ball",
+    "image_description": "Sure, 1. The main objects in the video are two cats and a red ball. 2. The first cat is orange and white, positioned on the left side. 3. The second cat is gray and black, positioned on the right side. 4. Both cats are batting at the red ball with their paws on a wooden floor.<|im_end|>",
+    "sentence1": "<image> Segment the orange and white cat batting at the red ball.",
+    "sentence2": "<image> Segment the gray and black cat batting at the red ball."
+  },
+  "153": {
+    "focus_query": "Red car parking",
+    "image_description": "The video shows a bright red sedan parking in an empty lot. The car is positioned in the center of the frame, moving slowly backward. The parking lot has yellow lines marking the spaces. There are buildings visible in the background. The car's brake lights are illuminated.<|im_end|>",
+    "sentence1": "<image> Segment the bright red sedan parking in the lot."
+  },
+  "154": {
+    "image_description": "Sure, 1. The main objects are a man and two pigeons. 2. The man is wearing a green hat and throwing birdseed. 3. One pigeon is on the left, and the other is on the right. 4. The scene takes place in a city park.<|im_end|>",
+    "focus_query": "Man feeding pigeons",
+    "sentence1": "<image> Segment the man wearing a green hat.",
+    "sentence2": "<image> Segment the pigeon on the left.",
+    "sentence3": "<image> Segment the pigeon on the right."
+  },
+  "155": {
+    "focus_query": "Motorcycles waiting at light",
+    "image_description": "The video features three motorcycles stopped at a traffic light. The motorcycles are of different colors: black, blue, and red. They are positioned in a row, with the black motorcycle in front. The riders are wearing helmets. The traffic light is red in the foreground.<|im_end|>",
+    "sentence1": "<image> Segment the black motorcycle in front.",
+    "sentence2": "<image> Segment the blue motorcycle in the middle.",
+    "sentence3": "<image> Segment the red motorcycle at the back."
+  },
+  "156": {
+    "focus_query": "Dolphins jumping",
+    "image_description": "Sure, 1. The video shows two dolphins jumping out of the ocean water. 2. The first dolphin is in mid-air, positioned on the left side. 3. The second dolphin is just breaking the water surface on the right side. 4. The background shows blue ocean and a distant boat.<|im_end|>",
+    "sentence1": "<image> Segment the first dolphin jumping in mid-air on the left.",
+    "sentence2": "<image> Segment the second dolphin breaking the water surface on the right."
+  },
+  "157": {
+    "focus_query": "Child holding ice cream",
+    "image_description": "The video shows a young child holding a melting ice cream cone. The child is wearing a yellow dress and standing on a sidewalk. The ice cream is pink and dripping down the cone. The child has a surprised expression on their face. There are shops visible in the background.<|im_end|>",
+    "sentence1": "<image> Segment the child wearing a yellow dress.",
+    "sentence2": "<image> Segment the melting pink ice cream cone."
+  },
+  "158": {
+    "focus_query": "Bears fighting over food",
+    "image_description": "Sure, 1. The main objects are two brown bears. 2. The bears are standing on their hind legs facing each other. 3. There is a fish on the ground between them. 4. The larger bear is on the left, the smaller bear on the right. 5. They are in a forest clearing with trees in background.<|im_end|>",
+    "sentence1": "<image> Segment the larger brown bear on the left.",
+    "sentence2": "<image> Segment the smaller brown bear on the right.",
+    "sentence3": "<image> Segment the fish on the ground between them."
+  },
+  "159": {
+    "focus_query": "Blue truck delivering packages",
+    "image_description": "The video shows a blue delivery truck parked on a residential street. A delivery person is carrying a package to a house. The truck has the company logo on the side. The delivery person is wearing a uniform. The truck's rear door is open showing packages inside.<|im_end|>",
+    "sentence1": "<image> Segment the blue delivery truck with open rear door.",
+    "sentence2": "<image> Segment the delivery person carrying the package."
+  },
+  "160": {
+    "focus_query": "Monkeys grooming each other",
+    "image_description": "Sure, 1. The video shows three monkeys sitting on a tree branch. 2. The monkey on the left is grooming the monkey in the middle. 3. The monkey on the right is watching them. 4. All monkeys are brown with long tails. 5. The tree has green leaves in the foreground.<|im_end|>",
+    "sentence1": "<image> Segment the monkey grooming on the left.",
+    "sentence2": "<image> Segment the monkey being groomed in the middle.",
+    "sentence3": "<image> Segment the watching monkey on the right."
+  },
+  "161": {
+    "focus_query": "Bicycles racing",
+    "image_description": "The video shows three cyclists racing down a country road. The lead cyclist is wearing a yellow jersey. The second cyclist is close behind in blue. A third cyclist is further back in red. They are all leaning forward over their handlebars.<|im_end|>",
+    "sentence1": "<image> Segment the lead cyclist in yellow jersey.",
+    "sentence2": "<image> Segment the second cyclist in blue close behind.",
+    "sentence3": "<image> Segment the third cyclist in red further back."
+  },
+  "162": {
+    "focus_query": "Elephant spraying water",
+    "image_description": "Sure, 1. The main object is a large gray elephant. 2. The elephant is standing in a watering hole. 3. The elephant is spraying water from its trunk into the air. 4. There are other elephants visible in the background. 5. The scene has dry grassland behind the watering hole.<|im_end|>",
+    "sentence1": "<image> Segment the large gray elephant spraying water from its trunk."
+  },
+  "163": {
+    "focus_query": "Construction workers operating crane",
+    "image_description": "The video shows a construction site with a large yellow crane. Two workers are directing the crane operator. One worker is wearing a hard hat and orange vest. The crane is lifting steel beams. The construction site has unfinished buildings in background.<|im_end|>",
+    "sentence1": "<image> Segment the worker in hard hat and orange vest.",
+    "sentence2": "<image> Segment the second worker directing the crane.",
+    "sentence3": "<image> Segment the yellow crane lifting steel beams."
+  },
+  "164": {
+    "image_description": "The video shows a pride of lions resting under a tree. A male lion is on the left. A female lion is in the center. Another female lion is on the right.<|im_end|>",
+    "focus_query": "Lions resting under tree",
+    "sentence1": "<image> Segment the male lion on the left.",
+    "sentence2": "<image> Segment the female lion in the center.",
+    "sentence3": "<image> Segment the female lion on the right."
+  },
+  "165": {
+    "image_description": "The video shows two sailboats moving through a harbor. The boat on the left has a white sail. The boat on the right has a blue stripe. The water is blue.<|im_end|>",
+    "focus_query": "Boats sailing harbor",
+    "sentence1": "<image> Segment the sailboat with the white sail on the left.",
+    "sentence2": "<image> Segment the sailboat with the blue stripe on the right."
+  },
+  "166": {
+    "focus_query": "Chef cooking kitchen",
+    "image_description": "Sure, 1. The video shows a chef working in a restaurant kitchen. 2. The chef is wearing a white uniform and tall hat. 3. The chef is chopping vegetables on a cutting board. 4. There are pots and pans on the stove behind the chef. 5. The kitchen has stainless steel counters and equipment.<|im_end|>",
+    "sentence1": "<image> Segment the chef in white uniform chopping vegetables."
+  },
+  "167": {
+    "image_description": "The video shows two deer running across an open field. The lead deer is a large buck with antlers. The second deer is a smaller doe following behind. The field has tall grass.<|im_end|>",
+    "focus_query": "Deer running field",
+    "sentence1": "<image> Segment the large lead buck with antlers.",
+    "sentence2": "<image> Segment the smaller doe following behind."
+  },
+  "168": {
+    "focus_query": "Firefighters putting out fire",
+    "image_description": "Sure, 1. The video shows firefighters battling a building fire. 2. Two firefighters are holding a water hose spraying water. 3. A fire truck is parked nearby with lights flashing. 4. Smoke is coming from the building windows. 5. One firefighter is on the truck ladder.<|im_end|>",
+    "sentence1": "<image> Segment the firefighters holding the water hose.",
+    "sentence2": "<image> Segment the fire truck with flashing lights.",
+    "sentence3": "<image> Segment the firefighter on the ladder."
+  },
+  "169": {
+    "image_description": "The video shows two penguins standing on an ice floe. The penguin on the left is standing tall. The penguin on the right is looking down. The ice is white with blue tones.<|im_end|>",
+    "focus_query": "Penguins huddling ice",
+    "sentence1": "<image> Segment the penguin on the left standing tall.",
+    "sentence2": "<image> Segment the penguin on the right looking down."
+  },
+  "170": {
+    "focus_query": "Police car chasing suspect",
+    "image_description": "Sure, 1. The video shows a police car with flashing lights pursuing another vehicle. 2. The police car is white with blue markings. 3. The suspect vehicle is a dark sedan. 4. Both vehicles are moving at high speed down a city street. 5. Other cars are pulling over to the side.<|im_end|>",
+    "sentence1": "<image> Segment the white police car with flashing lights.",
+    "sentence2": "<image> Segment the dark sedan being pursued."
+  },
+  "171": {
+    "focus_query": "Giraffes eating leaves",
+    "image_description": "The video shows two giraffes reaching up to eat leaves from acacia trees. The taller giraffe is stretching its neck to reach higher branches. The shorter giraffe is eating from lower branches. Both giraffes have distinctive spot patterns. The trees are in a dry savanna landscape.<|im_end|>",
+    "sentence1": "<image> Segment the taller giraffe reaching for higher branches.",
+    "sentence2": "<image> Segment the shorter giraffe eating from lower branches."
+  },
+  "172": {
+    "image_description": "The video shows two surfers riding waves. The surfer on the left has a blue board. The surfer on the right has a yellow board. They are moving towards the shore.<|im_end|>",
+    "focus_query": "Surfers riding waves",
+    "sentence1": "<image> Segment the surfer with the blue board on the left.",
+    "sentence2": "<image> Segment the surfer with the yellow board on the right."
+  },
+  "173": {
+    "focus_query": "Horses pulling carriage",
+    "image_description": "The video shows two black horses pulling an ornate carriage. The horses are wearing harnesses and moving in unison. The carriage is red with gold trim. A driver is sitting in the front holding reins. They are moving along a cobblestone street.<|im_end|>",
+    "sentence1": "<image> Segment the two black horses pulling the carriage.",
+    "sentence2": "<image> Segment the red carriage with gold trim.",
+    "sentence3": "<image> Segment the driver holding the reins."
+  },
+  "174": {
+    "focus_query": "Birds building nest",
+    "image_description": "Sure, 1. The video shows two small birds building a nest. 2. The birds are brown with white chests. 3. One bird is bringing twigs to the nest site. 4. The other bird is arranging twigs in the nest. 5. The nest is in a tree branch against a blue sky.<|im_end|>",
+    "sentence1": "<image> Segment the bird bringing twigs to the nest.",
+    "sentence2": "<image> Segment the bird arranging twigs in the nest."
+  },
+  "175": {
+    "focus_query": "Ambulance responding emergency",
+    "image_description": "The video shows an ambulance with flashing lights moving through traffic. The ambulance is white with red markings. It is using its siren to clear the way. Cars are moving aside to let it pass. The ambulance is approaching an intersection.<|im_end|>",
+    "sentence1": "<image> Segment the ambulance with flashing lights and siren."
+  },
+  "176": {
+    "focus_query": "Kangaroos boxing",
+    "image_description": "Sure, 1. The video shows two kangaroos standing on their hind legs. 2. The kangaroos are facing each other in a boxing stance. 3. The larger kangaroo is on the left, smaller on right. 4. They are pushing and hitting with their front paws. 5. The background shows Australian outback vegetation.<|im_end|>",
+    "sentence1": "<image> Segment the larger kangaroo on the left in boxing stance.",
+    "sentence2": "<image> Segment the smaller kangaroo on the right pushing back."
+  },
+  "177": {
+    "focus_query": "Taxi picking up passenger",
+    "image_description": "The video shows a yellow taxi stopping at a curb to pick up a passenger. The taxi has its roof light on indicating availability. A person with luggage is approaching the taxi. The driver is visible in the front seat. The scene is on a busy city street.<|im_end|>",
+    "sentence1": "<image> Segment the yellow taxi stopped at the curb.",
+    "sentence2": "<image> Segment the passenger with luggage approaching.",
+    "sentence3": "<image> Segment the taxi driver in the front seat."
+  },
+  "178": {
+    "image_description": "The video shows two otters playing in the water. One otter is sliding down a bank on the left. The other otter is swimming on the right holding a fish.<|im_end|>",
+    "focus_query": "Otters playing water",
+    "sentence1": "<image> Segment the otter sliding down the bank on the left.",
+    "sentence2": "<image> Segment the otter swimming on the right holding a fish."
+  },
+  "179": {
+    "image_description": "The video shows a school bus and children. A boy is exiting the bus. A girl is waiting on the sidewalk. The bus is yellow.<|im_end|>",
+    "focus_query": "Bus dropping off children",
+    "sentence1": "<image> Segment the yellow school bus.",
+    "sentence2": "<image> Segment the boy exiting the bus.",
+    "sentence3": "<image> Segment the girl waiting on the sidewalk."
+  },
+  "180": {
+    "focus_query": "Polar bear swimming",
+    "image_description": "Sure, 1. The video shows a polar bear swimming in arctic waters. 2. The bear is moving through chunks of floating ice. 3. Only the bear's head and back are visible above water. 4. The water is dark blue with white ice pieces. 5. Snow-covered mountains are in the distance.<|im_end|>",
+    "sentence1": "<image> Segment the polar bear swimming through the ice."
+  },
+  "181": {
+    "focus_query": "Motorboat pulling skier",
+    "image_description": "The video shows a white motorboat pulling a water skier. The boat is creating a wake behind it. The skier is holding onto a rope and skiing on one ski. The water is blue and calm. There are trees along the shoreline.<|im_end|>",
+    "sentence1": "<image> Segment the white motorboat creating a wake.",
+    "sentence2": "<image> Segment the water skier holding the rope."
+  },
+  "182": {
+    "image_description": "The video shows two squirrels on a tree trunk. The squirrel on top is looking down. The squirrel on the bottom is climbing up. They are gray.<|im_end|>",
+    "focus_query": "Squirrels chasing each other",
+    "sentence1": "<image> Segment the squirrel on top looking down.",
+    "sentence2": "<image> Segment the squirrel on the bottom climbing up."
+  },
+  "183": {
+    "focus_query": "Garbage truck collecting trash",
+    "image_description": "The video shows a green garbage truck moving down a residential street. The truck stops at each house to collect trash cans. A worker is operating the mechanical arm that lifts the cans. The truck compacts the trash inside. Houses with driveways are visible.<|im_end|>",
+    "sentence1": "<image> Segment the green garbage truck with mechanical arm.",
+    "sentence2": "<image> Segment the worker operating the trash collection."
+  },
+  "184": {
+    "focus_query": "Hedgehogs eating from bowl",
+    "image_description": "Sure, 1. The video shows two hedgehogs eating from a small bowl. 2. The hedgehogs have brown spines and pointed snouts. 3. The bowl contains cat food pellets. 4. One hedgehog is on the left side of the bowl. 5. The other hedgehog is on the right side eating.<|im_end|>",
+    "sentence1": "<image> Segment the hedgehog on the left side of the bowl.",
+    "sentence2": "<image> Segment the hedgehog on the right side of the bowl."
+  },
+  "185": {
+    "focus_query": "Helicopter landing pad",
+    "image_description": "The video shows a red helicopter preparing to land on a helipad. The helicopter is descending slowly with rotor blades spinning. The helipad has a large H marking. A crew member is waiting nearby with safety equipment. City buildings are visible in background.<|im_end|>",
+    "sentence1": "<image> Segment the red helicopter descending to land.",
+    "sentence2": "<image> Segment the crew member waiting on the helipad."
+  },
+  "186": {
+    "image_description": "The video shows two raccoons near a trash can. One raccoon is on top of the trash can. The other raccoon is on the ground eating. The trash can is metal.<|im_end|>",
+    "focus_query": "Raccoons searching trash",
+    "sentence1": "<image> Segment the raccoon on top of the trash can.",
+    "sentence2": "<image> Segment the raccoon on the ground eating."
+  },
+  "187": {
+    "image_description": "The video shows an ice cream truck and two children. A boy is standing at the window. A girl is standing behind him. The truck is white.<|im_end|>",
+    "focus_query": "Ice cream truck children",
+    "sentence1": "<image> Segment the white ice cream truck.",
+    "sentence2": "<image> Segment the boy standing at the window.",
+    "sentence3": "<image> Segment the girl standing behind him."
+  },
+  "188": {
+    "focus_query": "Owls perched tree",
+    "image_description": "Sure, 1. The video shows two owls perched on a tree branch. 2. The larger owl is on the left with prominent ear tufts. 3. The smaller owl is on the right with round eyes. 4. Both owls are brown with speckled feathers. 5. The tree is silhouetted against the moonlit sky.<|im_end|>",
+    "sentence1": "<image> Segment the larger owl with ear tufts on the left.",
+    "sentence2": "<image> Segment the smaller owl with round eyes on the right."
+  },
+  "189": {
+    "focus_query": "Tow truck pulling car",
+    "image_description": "The video shows a tow truck pulling a disabled car onto its flatbed. The tow truck is yellow with flashing amber lights. The car being towed is a silver sedan. The tow truck operator is securing the car with chains. The scene is on a highway shoulder.<|im_end|>",
+    "sentence1": "<image> Segment the yellow tow truck with flashing lights.",
+    "sentence2": "<image> Segment the silver sedan being towed.",
+    "sentence3": "<image> Segment the tow truck operator securing chains."
+  },
+  "190": {
+    "focus_query": "Peacocks displaying feathers",
+    "image_description": "Sure, 1. The video shows two peacocks in a garden setting. 2. One peacock has its tail feathers fully displayed in a fan. 3. The other peacock is watching without displaying. 4. The displaying peacock has blue and green iridescent feathers. 5. The garden has flowering plants and a fountain.<|im_end|>",
+    "sentence1": "<image> Segment the peacock with displayed tail feathers.",
+    "sentence2": "<image> Segment the watching peacock without display."
+  },
+  "191": {
+    "focus_query": "Farm tractor plowing field",
+    "image_description": "The video shows a green tractor plowing a large field. The tractor is pulling a plow that turns over the soil. The field is brown with rows of turned earth. The tractor is moving slowly across the field. There are trees at the field's edge.<|im_end|>",
+    "sentence1": "<image> Segment the green tractor plowing the field.",
+    "sentence2": "<image> Segment the plow turning over the soil."
+  },
+  "192": {
+    "image_description": "The video shows two chipmunks on a forest floor. One chipmunk is holding a nut. The other chipmunk is running. There are leaves on the ground.<|im_end|>",
+    "focus_query": "Chipmunks gathering nuts",
+    "sentence1": "<image> Segment the chipmunk holding a nut.",
+    "sentence2": "<image> Segment the chipmunk running."
+  },
+  "193": {
+    "focus_query": "Cement mixer pouring concrete",
+    "image_description": "The video shows a cement mixer truck pouring concrete at a construction site. The truck's drum is rotating slowly. Workers are directing the flow of concrete into forms. The concrete is gray and wet. The construction site has rebar and wooden forms.<|im_end|>",
+    "sentence1": "<image> Segment the cement mixer truck with rotating drum.",
+    "sentence2": "<image> Segment the workers directing concrete flow."
+  },
+  "194": {
+    "image_description": "The video shows two frogs in a pond. One frog is sitting on a lily pad. The other frog is swimming in the water. The pond is green.<|im_end|>",
+    "focus_query": "Frogs on lily pads",
+    "sentence1": "<image> Segment the frog sitting on the lily pad.",
+    "sentence2": "<image> Segment the frog swimming in the water."
+  },
+  "195": {
+    "focus_query": "Street sweeper cleaning road",
+    "image_description": "The video shows a street sweeper vehicle cleaning a city street. The sweeper has rotating brushes that push debris into a collection bin. The vehicle is orange with warning lights. It is moving slowly down the street. Parked cars line the street sides.<|im_end|>",
+    "sentence1": "<image> Segment the orange street sweeper with rotating brushes."
+  },
+  "196": {
+    "focus_query": "Eagles fighting over fish",
+    "image_description": "Sure, 1. The video shows two bald eagles fighting in mid-air. 2. The eagles are grappling with their talons extended. 3. A fish is dropping between them. 4. One eagle is larger with more white head feathers. 5. The background shows a lake and pine trees.<|im_end|>",
+    "sentence1": "<image> Segment the larger eagle with white head feathers.",
+    "sentence2": "<image> Segment the smaller eagle grappling in mid-air.",
+    "sentence3": "<image> Segment the fish dropping between them."
+  },
+  "197": {
+    "focus_query": "Food delivery scooter",
+    "image_description": "The video shows a food delivery person on an electric scooter. The scooter has a delivery box on the back. The rider is wearing a helmet and company jacket. They are stopped at a traffic light. Restaurant bags are visible in the delivery box.<|im_end|>",
+    "sentence1": "<image> Segment the food delivery person on electric scooter.",
+    "sentence2": "<image> Segment the delivery box with restaurant bags."
+  },
+  "198": {
+    "image_description": "Sure, 1. The video shows two seals basking on rocks. 2. One seal is lying on a high rock on the left. 3. The other seal is on a lower rock on the right. 4. The rocks are wet from ocean spray.<|im_end|>",
+    "focus_query": "Seals basking rocks",
+    "sentence1": "<image> Segment the seal on the high rock on the left.",
+    "sentence2": "<image> Segment the seal on the lower rock on the right."
+  },
+  "199": {
+    "focus_query": "Moving truck loading furniture",
+    "image_description": "The video shows a large moving truck being loaded with furniture. Two movers are carrying a sofa up the ramp. The truck is white with the company name on the side. Boxes are stacked inside the truck. The scene is in front of a suburban house.<|im_end|>",
+    "sentence1": "<image> Segment the white moving truck with open rear.",
+    "sentence2": "<image> Segment the movers carrying the sofa.",
+    "sentence3": "<image> Segment the boxes stacked inside the truck."
+  },
+  "200": {
+    "image_description": "The video shows two red foxes playing near a den. One fox is chasing the other. The second fox is rolling on the ground. The den is a hole under a tree.<|im_end|>",
+    "focus_query": "Foxes playing den",
+    "sentence1": "<image> Segment the fox chasing the other.",
+    "sentence2": "<image> Segment the fox rolling on the ground."
+  },
+  "201": {
+    "image_description": "The video shows a man standing in a gym holding a plastic water bottle. He is wearing a grey tank top. The bottle is blue. There are weights in the background.<|im_end|>",
+    "focus_query": "man holding water bottle",
+    "sentence1": "<image> Segment the man wearing a grey tank top.",
+    "sentence2": "<image> Segment the blue water bottle."
+  },
+  "202": {
+    "image_description": "The video shows a woman sitting at a cafe holding a coffee mug. She is wearing a white sweater. The mug is ceramic and white. Steam is rising from the mug.<|im_end|>",
+    "focus_query": "woman holding coffee mug",
+    "sentence1": "<image> Segment the woman wearing a white sweater.",
+    "sentence2": "<image> Segment the white ceramic coffee mug."
+  },
+  "203": {
+    "image_description": "The video shows a child standing in a playroom holding a teddy bear. The child is wearing blue pajamas. The teddy bear is brown with a red bow.<|im_end|>",
+    "focus_query": "child holding teddy bear",
+    "sentence1": "<image> Segment the child wearing blue pajamas.",
+    "sentence2": "<image> Segment the brown teddy bear with a red bow."
+  },
+  "204": {
+    "image_description": "The video shows a man standing in a garden holding a shovel. He is wearing denim overalls. The shovel has a wooden handle and a metal blade. There is dirt on the shovel.<|im_end|>",
+    "focus_query": "man holding shovel",
+    "sentence1": "<image> Segment the man wearing denim overalls.",
+    "sentence2": "<image> Segment the shovel with the wooden handle."
+  },
+  "205": {
+    "image_description": "The video shows a woman walking in the rain holding an umbrella. She is wearing a yellow raincoat. The umbrella is red and open. The street is wet.<|im_end|>",
+    "focus_query": "woman holding umbrella",
+    "sentence1": "<image> Segment the woman wearing a yellow raincoat.",
+    "sentence2": "<image> Segment the open red umbrella."
+  },
+  "206": {
+    "image_description": "The video shows a boy standing on a soccer field holding a trophy. He is wearing a green jersey. The trophy is gold and shiny. He is smiling.<|im_end|>",
+    "focus_query": "boy holding trophy",
+    "sentence1": "<image> Segment the boy wearing a green jersey.",
+    "sentence2": "<image> Segment the gold shiny trophy."
+  },
+  "207": {
+    "image_description": "The video shows a woman standing in a kitchen holding a wine glass. She is wearing a black dress. The glass contains red wine. The kitchen counters are white.<|im_end|>",
+    "focus_query": "woman holding wine glass",
+    "sentence1": "<image> Segment the woman wearing a black dress.",
+    "sentence2": "<image> Segment the glass containing red wine."
+  },
+  "208": {
+    "image_description": "The video shows a man sitting on a bench holding a newspaper. He is wearing a beige coat. The newspaper is open. There are pigeons nearby.<|im_end|>",
+    "focus_query": "man holding newspaper",
+    "sentence1": "<image> Segment the man wearing a beige coat.",
+    "sentence2": "<image> Segment the open newspaper."
+  },
+  "209": {
+    "image_description": "The video shows a girl standing at a party holding a balloon. She is wearing a pink dress. The balloon is purple and floating. There are streamers in the background.<|im_end|>",
+    "focus_query": "girl holding balloon",
+    "sentence1": "<image> Segment the girl wearing a pink dress.",
+    "sentence2": "<image> Segment the purple floating balloon."
+  },
+  "210": {
+    "image_description": "The video shows a man standing by a river holding a fishing rod. He is wearing a vest and hat. The fishing rod is long and thin. The line goes into the water.<|im_end|>",
+    "focus_query": "man holding fishing rod",
+    "sentence1": "<image> Segment the man wearing a vest and hat.",
+    "sentence2": "<image> Segment the fishing rod."
+  },
+  "211": {
+    "image_description": "The video shows a cheetah running across a savanna. The cheetah is spotted and moving fast. Dust is kicking up behind it. The grass is dry and yellow.<|im_end|>",
+    "focus_query": "cheetah running",
+    "sentence1": "<image> Segment the spotted cheetah running."
+  },
+  "212": {
+    "image_description": "The video shows two boxers sparring in a ring. The boxer on the left is wearing red gloves. The boxer on the right is wearing blue gloves. They are moving around the center.<|im_end|>",
+    "focus_query": "boxers sparring",
+    "sentence1": "<image> Segment the boxer with red gloves on the left.",
+    "sentence2": "<image> Segment the boxer with blue gloves on the right."
+  },
+  "213": {
+    "image_description": "The video shows a hot air balloon flying over a valley. The balloon is colorful with stripes. The basket is hanging below. The sky is clear blue.<|im_end|>",
+    "focus_query": "hot air balloon flying",
+    "sentence1": "<image> Segment the colorful striped balloon.",
+    "sentence2": "<image> Segment the basket hanging below."
+  },
+  "214": {
+    "image_description": "The video shows a frog sitting on a log. The frog is green with black spots. The log is brown and partially submerged in water. There are flies buzzing nearby.<|im_end|>",
+    "focus_query": "frog on log",
+    "sentence1": "<image> Segment the green frog with black spots.",
+    "sentence2": "<image> Segment the brown log."
+  },
+  "215": {
+    "image_description": "The video shows a Formula 1 car racing on a track. The car is red and low to the ground. The tires are wide. The driver's helmet is visible.<|im_end|>",
+    "focus_query": "race car driving",
+    "sentence1": "<image> Segment the red Formula 1 car.",
+    "sentence2": "<image> Segment the driver's visible helmet."
+  },
+  "216": {
+    "image_description": "The video shows two wolves howling at the moon. The wolf on the left is gray. The wolf on the right is white. They are standing on a rocky outcrop.<|im_end|>",
+    "focus_query": "wolves howling",
+    "sentence1": "<image> Segment the gray wolf on the left.",
+    "sentence2": "<image> Segment the white wolf on the right."
+  },
+  "217": {
+    "image_description": "The video shows a woman playing a violin. She is wearing a black concert dress. She is holding the violin under her chin and moving the bow. The background is a stage curtain.<|im_end|>",
+    "focus_query": "woman playing violin",
+    "sentence1": "<image> Segment the woman wearing a black concert dress.",
+    "sentence2": "<image> Segment the violin.",
+    "sentence3": "<image> Segment the bow moving across the strings."
+  },
+  "218": {
+    "image_description": "The video shows a koala hugging a tree branch. The koala is gray and furry. The tree branch is eucalyptus with leaves. The background is blurred forest.<|im_end|>",
+    "focus_query": "koala on tree",
+    "sentence1": "<image> Segment the gray koala hugging the branch.",
+    "sentence2": "<image> Segment the eucalyptus tree branch."
+  },
+  "219": {
+    "image_description": "The video shows a jet ski moving fast on water. The rider is wearing a life jacket. The jet ski is white and blue. Water spray is creating a wake.<|im_end|>",
+    "focus_query": "man riding jet ski",
+    "sentence1": "<image> Segment the rider wearing a life jacket.",
+    "sentence2": "<image> Segment the white and blue jet ski."
+  },
+  "220": {
+    "image_description": "The video shows two crabs fighting on the beach. The crab on the left has a large claw. The crab on the right is smaller. They are red. The sand is wet.<|im_end|>",
+    "focus_query": "crabs fighting",
+    "sentence1": "<image> Segment the crab with the large claw on the left.",
+    "sentence2": "<image> Segment the smaller crab on the right."
+  },
+  "221": {
+    "image_description": "The video shows a fire truck driving down a street. The truck is red with a ladder on top. The lights are flashing. Cars are pulling over.<|im_end|>",
+    "focus_query": "fire truck driving",
+    "sentence1": "<image> Segment the red fire truck with ladder.",
+    "sentence2": "<image> Segment the flashing lights."
+  },
+  "222": {
+    "image_description": "The video shows a hippopotamus opening its mouth in water. The hippo is large and gray. Its teeth are visible. The water is murky and green.<|im_end|>",
+    "focus_query": "hippo yawning",
+    "sentence1": "<image> Segment the large gray hippo opening its mouth."
+  },
+  "223": {
+    "image_description": "The video shows a skateboarder doing a trick. The skateboarder is in mid-air. The skateboard is under his feet. He is wearing a cap.<|im_end|>",
+    "focus_query": "skateboarder jumping",
+    "sentence1": "<image> Segment the skateboarder in mid-air.",
+    "sentence2": "<image> Segment the skateboard under his feet."
+  },
+  "224": {
+    "image_description": "The video shows two parrots sitting on a branch. The parrot on the left is red (Macaw). The parrot on the right is green. They are preening their feathers.<|im_end|>",
+    "focus_query": "parrots on branch",
+    "sentence1": "<image> Segment the red parrot on the left.",
+    "sentence2": "<image> Segment the green parrot on the right."
+  },
+  "225": {
+    "image_description": "The video shows a submarine surfacing in the ocean. The submarine is black and long. Water is cascading off the sides. The ocean is choppy.<|im_end|>",
+    "focus_query": "submarine surfacing",
+    "sentence1": "<image> Segment the black submarine."
+  },
+  "226": {
+    "image_description": "The video shows a cat swatting at a dog's tail. The cat is black and hiding under a chair. The dog is a golden retriever standing near the chair. The dog's tail is wagging.<|im_end|>",
+    "focus_query": "cat playing with dog",
+    "sentence1": "<image> Segment the black cat under the chair.",
+    "sentence2": "<image> Segment the golden retriever.",
+    "sentence3": "<image> Segment the dog's wagging tail."
+  },
+  "227": {
+    "image_description": "The video shows a baseball player hitting a ball. The batter is wearing a white uniform and swinging a bat. The ball is connecting with the bat. The catcher is crouching behind.<|im_end|>",
+    "focus_query": "baseball batter hitting",
+    "sentence1": "<image> Segment the batter in white uniform.",
+    "sentence2": "<image> Segment the bat swinging.",
+    "sentence3": "<image> Segment the ball connecting."
+  },
+  "228": {
+    "image_description": "The video shows a snail crawling on a leaf. The snail has a brown spiral shell. The leaf is green and wet. The snail's antennae are extended.<|im_end|>",
+    "focus_query": "snail on leaf",
+    "sentence1": "<image> Segment the snail with the brown shell.",
+    "sentence2": "<image> Segment the green leaf."
+  },
+  "229": {
+    "image_description": "The video shows a drone flying over a forest. The drone is white with four propellers. It is hovering above the treeline. The trees are pine.<|im_end|>",
+    "focus_query": "drone flying",
+    "sentence1": "<image> Segment the white drone with four propellers."
+  },
+  "230": {
+    "image_description": "The video shows two fencers in a match. The fencer on the left is lunging. The fencer on the right is parrying. They are wearing white protective suits and masks.<|im_end|>",
+    "focus_query": "fencers fighting",
+    "sentence1": "<image> Segment the lunging fencer on the left.",
+    "sentence2": "<image> Segment the parrying fencer on the right."
+  },
+  "231": {
+    "image_description": "The video shows a lemur sitting on a rock. The lemur has a black and white ringed tail. It is looking at the camera. The background is a zoo enclosure.<|im_end|>",
+    "focus_query": "lemur sitting",
+    "sentence1": "<image> Segment the lemur with the ringed tail."
+  },
+  "232": {
+    "image_description": "The video shows a tank driving through mud. The tank is green and camouflaged. The tracks are churning up mud. The turret is facing forward.<|im_end|>",
+    "focus_query": "tank driving",
+    "sentence1": "<image> Segment the green camouflaged tank.",
+    "sentence2": "<image> Segment the turret facing forward."
+  },
+  "233": {
+    "image_description": "The video shows a woman doing a handstand. She is on a yoga mat. She is wearing black leggings. Her legs are straight in the air.<|im_end|>",
+    "focus_query": "woman doing handstand",
+    "sentence1": "<image> Segment the woman doing a handstand."
+  },
+  "234": {
+    "image_description": "The video shows two meerkats standing guard. One meerkat is standing tall on the left. The other meerkat is looking right. They are on a dirt mound.<|im_end|>",
+    "focus_query": "meerkats standing",
+    "sentence1": "<image> Segment the meerkat standing tall on the left.",
+    "sentence2": "<image> Segment the meerkat looking right."
+  },
+  "235": {
+    "image_description": "The video shows a kayak going down rapids. The kayaker is wearing a red helmet. The kayak is yellow. The water is white and turbulent.<|im_end|>",
+    "focus_query": "person kayaking",
+    "sentence1": "<image> Segment the kayaker wearing a red helmet.",
+    "sentence2": "<image> Segment the yellow kayak."
+  },
+  "236": {
+    "image_description": "The video shows an owl hunting at night. The owl is flying with wings spread. It is white (Barn Owl). The background is dark sky.<|im_end|>",
+    "focus_query": "owl flying",
+    "sentence1": "<image> Segment the white owl with wings spread."
+  },
+  "237": {
+    "image_description": "The video shows a crane lifting a container. The crane is blue and tall. The container is red. It is being loaded onto a ship.<|im_end|>",
+    "focus_query": "crane lifting container",
+    "sentence1": "<image> Segment the tall blue crane.",
+    "sentence2": "<image> Segment the red container being lifted."
+  },
+  "238": {
+    "image_description": "The video shows two lizards on a wall. The lizard on the left is green. The lizard on the right is brown. They are basking in the sun.<|im_end|>",
+    "focus_query": "lizards on wall",
+    "sentence1": "<image> Segment the green lizard on the left.",
+    "sentence2": "<image> Segment the brown lizard on the right."
+  },
+  "239": {
+    "image_description": "The video shows a golfer swinging a club. The golfer is wearing a white polo shirt. The club is in mid-swing. The ball is on a tee.<|im_end|>",
+    "focus_query": "man playing golf",
+    "sentence1": "<image> Segment the golfer wearing a white polo shirt.",
+    "sentence2": "<image> Segment the golf club in mid-swing.",
+    "sentence3": "<image> Segment the ball on the tee."
+  },
+  "240": {
+    "image_description": "The video shows a chameleon changing color. The chameleon is green and turning brown. It is on a branch. Its eyes are moving independently.<|im_end|>",
+    "focus_query": "chameleon on branch",
+    "sentence1": "<image> Segment the chameleon on the branch."
+  },
+  "241": {
+    "image_description": "The video shows a forklift lifting a pallet. The forklift is yellow. The pallet is wooden and loaded with boxes. The warehouse floor is concrete.<|im_end|>",
+    "focus_query": "forklift lifting pallet",
+    "sentence1": "<image> Segment the yellow forklift.",
+    "sentence2": "<image> Segment the wooden pallet loaded with boxes."
+  },
+  "242": {
+    "image_description": "The video shows two flamingos flying. The flamingo in front has wings spread. The flamingo behind is following. They are pink against a blue sky.<|im_end|>",
+    "focus_query": "flamingos flying",
+    "sentence1": "<image> Segment the flamingo in front with wings spread.",
+    "sentence2": "<image> Segment the flamingo following behind."
+  },
+  "243": {
+    "image_description": "The video shows a surfer falling off a board. The surfer is in the water. The board is flying into the air. The wave is crashing.<|im_end|>",
+    "focus_query": "surfer falling",
+    "sentence1": "<image> Segment the surfer in the water.",
+    "sentence2": "<image> Segment the board flying in the air."
+  },
+  "244": {
+    "image_description": "The video shows a gorilla eating leaves. The gorilla is large and black. It is sitting on the grass. It is holding a branch.<|im_end|>",
+    "focus_query": "gorilla eating",
+    "sentence1": "<image> Segment the large black gorilla.",
+    "sentence2": "<image> Segment the branch with leaves."
+  },
+  "245": {
+    "image_description": "The video shows a volleyball player spiking a ball. The player is jumping high. She is wearing a blue jersey. The ball is being hit over the net.<|im_end|>",
+    "focus_query": "woman playing volleyball",
+    "sentence1": "<image> Segment the player wearing a blue jersey jumping.",
+    "sentence2": "<image> Segment the volleyball being spiked."
+  },
+  "246": {
+    "image_description": "The video shows two swans fighting in water. The swan on the left is flapping wings. The swan on the right is biting. They are white.<|im_end|>",
+    "focus_query": "swans fighting",
+    "sentence1": "<image> Segment the swan on the left flapping wings.",
+    "sentence2": "<image> Segment the swan on the right biting."
+  },
+  "247": {
+    "image_description": "The video shows a tractor pulling a trailer. The tractor is red. The trailer is filled with hay bales. It is moving down a country lane.<|im_end|>",
+    "focus_query": "tractor pulling hay",
+    "sentence1": "<image> Segment the red tractor.",
+    "sentence2": "<image> Segment the trailer filled with hay bales."
+  },
+  "248": {
+    "image_description": "The video shows a bear catching a fish. The bear is standing in a waterfall. The fish is a salmon jumping up. The bear's mouth is open.<|im_end|>",
+    "focus_query": "bear catching salmon",
+    "sentence1": "<image> Segment the bear standing in the waterfall.",
+    "sentence2": "<image> Segment the salmon jumping up."
+  },
+  "249": {
+    "image_description": "The video shows a boy bowling. He is releasing the ball. He is wearing a bowling shirt. The ball is black and rolling down the lane.<|im_end|>",
+    "focus_query": "boy bowling",
+    "sentence1": "<image> Segment the boy releasing the ball.",
+    "sentence2": "<image> Segment the black bowling ball."
+  },
+  "250": {
+    "image_description": "The video shows an octopus swimming. The octopus is red and has eight tentacles. It is moving along the sea floor. The water is blue.<|im_end|>",
+    "focus_query": "octopus swimming",
+    "sentence1": "<image> Segment the red octopus moving along the sea floor."
+  }
+}

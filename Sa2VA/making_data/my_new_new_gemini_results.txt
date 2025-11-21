@@ -1,0 +1,190 @@
+{
+    "1": {
+        "FOCUS_QUERY": "Man riding horse",
+        "IMAGE_DESCRIPTION": "In the image, a man is riding a horse in an open field. The horse is positioned in the foreground, while the rider is in the background. The man is wearing a helmet and is riding a dark-colored horse. The horse is trotting, and the rider is riding it at a moderate pace.<|im_end|>"
+    },
+    "2": {
+        "FOCUS_QUERY": "black car following white car",
+        "IMAGE_DESCRIPTION": "In the image, there is a black car driving on a city street. The car is positioned on the right side of the image, following another car. The black car is following the white car, which is also driving on the street. The black car is closer to the camera, while the white car is further away.<|im_end|>"
+    },
+    "3": {
+        "FOCUS_QUERY": "left aeroplane moving forward",
+        "IMAGE_DESCRIPTION": "The image shows two airplanes, one larger and one smaller, parked on a grassy field. The larger airplane is positioned on the left side of the image, while the smaller one is on the right. The larger airplane is also moving forward, as indicated by the presence of a line of lights behind it. The smaller airplane is stationary, parked on the grass.<|im_end|>"
+    },
+    "4": {
+        "FOCUS_QUERY": "two bears colliding heads with each other",
+        "IMAGE_DESCRIPTION": "In the image, there are two brown bears in a grassy field. One bear is standing in front of the other, and they are facing each other. The bear in front is slightly larger and has its head lowered. The other bear is positioned behind it, and they are both in the foreground.<|im_end|>"
+    },
+    "5": {
+        "FOCUS_QUERY": "Monkey going from door and coming back",
+        "IMAGE_DESCRIPTION": "In the image, there are two monkeys. One is standing on the left side of the image, and the other is inside a cave-like structure. The monkey on the left is positioned in the background, while the one inside the structure is in the foreground. The monkey on the left is wearing a brown outfit, while the one inside the structure is wearing a white outfit.<|im_end|>"
+    },
+    "6": {
+        "FOCUS_QUERY": "Man feeding pandas",
+        "IMAGE_DESCRIPTION": "In the image, a man is feeding two pandas. The man is positioned on the right side of the image, wearing a blue shirt. The pandas are on the left side, with one standing on its hind legs and the other sitting on its front legs. The man is feeding the standing panda, while the sitting panda is eating from a bowl held by the man.<|im_end|>"
+    },
+    "7": {
+        "FOCUS_QUERY": "dog fighting monkeys",
+        "IMAGE_DESCRIPTION": "In the image, there are three monkeys and a dog. The dog is positioned in the center of the scene, while the other two monkeys are on the left side. The dog is a small, fluffy brown dog. The monkeys are positioned in different areas of the image, with one on the left, one in the middle, and one on the right.<|im_end|>"
+    },
+    "8": {
+        "FOCUS_QUERY": "blue birds inside cage",
+        "IMAGE_DESCRIPTION": "In the image, there are two blue birds inside a red cage. 1. The blue birds are positioned on the left side of the cage, with one bird standing on a perch and the other standing on the ground. 2. The blue bird on the left is closer to the viewer, while the one on the right is slightly further away. 3. Both birds are blue in color and are standing on the cage.<|im_end|>"
+    },
+    "9": {
+        "FOCUS_QUERY": "tortoise swimming inside water",
+        "IMAGE_DESCRIPTION": "In the image, there are two sea turtles swimming in the water. 1. The first turtle is positioned in the foreground, with its head visible. 2. The second turtle is located in the background, slightly behind the first one. 3. Both turtles are swimming in the clear water, surrounded by rocks.<|im_end|>"
+    },
+    "11": {
+        "FOCUS_QUERY": "kid playing with dog",
+        "IMAGE_DESCRIPTION": "In the image, a small dog is seen playing with a child in a room. The dog is positioned in the foreground, with a chair and a dog bed nearby. The dog is walking towards the camera, and the child is standing in front of the dog bed. The dog is also seen walking towards the camera, and the child is standing in front of the dog bed.<|im_end|>"
+    },
+    "12": {
+        "FOCUS_QUERY": "monkey playing with rock",
+        "IMAGE_DESCRIPTION": "In the image, there is a monkey playing with a rock in the water. The monkey is positioned in the center of the image, with the rock being the main focus. The monkey is seen sitting on the rock, and there is a rock in the water nearby. The monkey is also seen holding a rock in its hand.<|im_end|>"
+    },
+    "13": {
+        "FOCUS_QUERY": "tortoise inside water",
+        "IMAGE_DESCRIPTION": "The image features a large sea turtle swimming in the ocean. The turtle is positioned in the foreground, with its head and neck extending over the water. The turtle is surrounded by a sandy area, with a small fish swimming nearby. The fish is also in the foreground, with its head and body visible.<|im_end|>"
+    },
+    "14": {
+        "FOCUS_QUERY": "yellow truck and red truck",
+        "IMAGE_DESCRIPTION": "The image features a yellow truck and a red truck driving on a dirt road. The yellow truck is positioned on the left side of the road, while the red truck is on the right. Both trucks are moving in the same direction, with the yellow truck slightly ahead of the red truck.<|im_end|>"
+    },
+    "15": {
+        "FOCUS_QUERY": "Man feeding sheeps",
+        "IMAGE_DESCRIPTION": "In the image, a man is feeding a group of sheep in a snowy field. The man is positioned in the foreground, kneeling down and feeding the sheep. The sheep are scattered around him, with some standing and some lying down. The man is holding a piece of food in his hand, and the sheep are grazing on it.<|im_end|>"
+    },
+    "16": {
+        "FOCUS_QUERY": "Rabits eating grass",
+        "IMAGE_DESCRIPTION": "In the image, there are two white rabbits, <p> rabbit-1 </p> [SEG] and <p> rabbit-2 </p> [SEG], eating grass. Rabbit-1 is positioned in the foreground, while rabbit-2 is located in the background. Both rabbits are eating the grass, which is placed on the ground.<|im_end|>"
+    },
+    "17": {
+        "FOCUS_QUERY": "bears fighting",
+        "IMAGE_DESCRIPTION": "In the image, there are two bears, one standing and the other on its hind legs. The standing bear is positioned in the foreground, while the one on its hind legs is in the background. The standing bear is brown in color, and it is facing the camera. The bear on its hind legs is also brown, but it is facing away from the camera.<|im_end|>"
+    },
+    "18": {
+        "FOCUS_QUERY": "white dog fighting with black one",
+        "IMAGE_DESCRIPTION": "In the image, there are two dogs, a black one and a white one, engaged in a playful fight. The white dog is on top of the black dog, biting and wrestling with it. The black dog is on the ground, trying to avoid the white dog's attack. The white dog is positioned in the center of the image, while the black dog is on the left side.<|im_end|>"
+    },
+    "19": {
+        "FOCUS_QUERY": "Tortoise coming from above",
+        "IMAGE_DESCRIPTION": "In the image, there are two turtles, one in the foreground and another in the background. The foreground turtle is a sea turtle with a yellow shell, and it is swimming towards the camera. The background turtle is also a sea turtle, but it is positioned further back. The sea turtle in the foreground is the main focus, while the one in the background is slightly out of focus.<|im_end|>"
+    },
+    "20": {
+        "FOCUS_QUERY": "Elephant putting trunk on another elephant",
+        "IMAGE_DESCRIPTION": "In the image, there are two elephants, one of which is putting its trunk on the other. The elephant on the left is positioned in the foreground, while the one on the right is in the background. The elephant on the left is also seen with its trunk raised. The two elephants are standing on a dirt field near a body of water.<|im_end|>"
+    },
+    "21": {
+        "FOCUS_QUERY": "person walking down his bicycle",
+        "IMAGE_DESCRIPTION": "In the image, a person is walking down a wet street with a bicycle. The bicycle is positioned in the center of the scene, with the person walking beside it. The person is wearing a black hoodie and a cap. The bicycle is also located in the center of the scene, with the person walking beside it.<|im_end|>"
+    },
+    "22": {
+        "FOCUS_QUERY": "child feeding white rabbit",
+        "IMAGE_DESCRIPTION": "In the image, a young girl is feeding a white rabbit through a wire fence. The rabbit is standing on the other side of the fence, and the girl is feeding it a green stick. The girl is positioned in the foreground, while the rabbit is in the background. The girl is wearing a white shirt with a black design on it.<|im_end|>"
+    },
+    "23": {
+        "FOCUS_QUERY": "hand raising alligator from one position to another",
+        "IMAGE_DESCRIPTION": "In the image, a person is holding an alligator above a blue container filled with water. The alligator is positioned in the center of the image, with its head above the water. The person is also holding another alligator in the background. The alligator in the foreground is positioned towards the right side of the image.<|im_end|>"
+    },
+    "24": {
+        "FOCUS_QUERY": "child riding bicyle",
+        "IMAGE_DESCRIPTION": "In the image, a young girl is riding a pink bicycle on a city street. She is positioned in the foreground, with a focus on her. The bicycle is in the center of the image, and the girl is riding it.<|im_end|>"
+    },
+    "25": {
+        "FOCUS_QUERY": "dogs fighting",
+        "IMAGE_DESCRIPTION": "In the image, there are two puppies, one white and one yellow, playing on the grass. The white puppy is seen biting the blue cap of a plastic bottle. The yellow puppy is also biting the same bottle. The white puppy is positioned in front of the yellow puppy, and they are both engaged in playful behavior.<|im_end|>"
+    },
+    "27": {
+        "FOCUS_QUERY": "lizard on the left hand",
+        "IMAGE_DESCRIPTION": "In the image, there are two lizards, one on the left hand and the other on the right side of a plastic container. The lizard on the left hand is black, while the one on the right side is brown. The container is filled with dirt and rocks, and there is a person holding it.<|im_end|>"
+    },
+    "28": {
+        "FOCUS_QUERY": "Dogs fighting",
+        "IMAGE_DESCRIPTION": "In the image, there are two dogs, <p> Dog-1 </p> [SEG] and <p> Dog-2 </p> [SEG], fighting on a dirt ground. Dog-1 is positioned in the foreground, while Dog-2 is located in the background. Dog-1 is seen in the center of the image, with Dog-2 positioned behind it. Dog-1 is a brown dog, and Dog-2 is a grey dog.<|im_end|>"
+    },
+    "29": {
+        "FOCUS_QUERY": "monkeys fighting",
+        "IMAGE_DESCRIPTION": "The image shows two monkeys, <p> monkey-1 </p> [SEG] and <p> monkey-2 </p> [SEG], fighting in a shallow stream. <p> Monkey-1 </p> [SEG] is positioned in the foreground, while <p> monkey-2 </p> [SEG] is located in the background. The monkeys are in the water, with monkey-1 appearing to be on the left side and monkey-2 on the right side.<|im_end|>"
+    },
+    "30": {
+        "FOCUS_QUERY": "airplane going towards right",
+        "IMAGE_DESCRIPTION": "The image shows two airplanes on a runway. <p> Airplane-1 </p> [SEG] is positioned in the foreground, while <p> Airplane-2 </p> [SEG] is located in the background. Airplane-1 is a large white airplane, while Airplane-2 is a smaller red and white airplane.<|im_end|>"
+    },
+    "31": {
+        "FOCUS_QUERY": "bear with its childs",
+        "IMAGE_DESCRIPTION": "The image features a large black bear walking on a road with two smaller brown bears. The bear is positioned in the center of the scene, with the two smaller bears following closely behind. The bear is the focal point of the image, with the two smaller bears following closely behind it.<|im_end|>"
+    },
+    "32": {
+        "FOCUS_QUERY": "birds inside green cage",
+        "IMAGE_DESCRIPTION": "In the image, there are two birds inside a green cage. The bird is positioned in the center of the cage, while the other bird is located on the left side. The green cage is hanging from the ceiling, and it is surrounded by other cages.<|im_end|>"
+    },
+    "33": {
+        "FOCUS_QUERY": "fishes swimming",
+        "IMAGE_DESCRIPTION": "The image features a group of fish swimming in a tank. The main objects include several red fish, some of which are larger and more prominent. The fish are positioned in various areas of the tank, with some closer to the front and others further back. The fish are swimming in different directions, creating a lively and dynamic scene.<|im_end|>"
+    },
+    "34": {
+        "FOCUS_QUERY": "goats walking",
+        "IMAGE_DESCRIPTION": "The image shows a group of goats walking on a concrete surface. There are at least six goats visible in the scene. The goats are of various colors, including brown, white, and black. They are walking in a line, with some of them closer to the foreground and others further back. The goats are spread out across the scene, with some closer to the camera and others further away.<|im_end|>"
+    },
+    "35": {
+        "FOCUS_QUERY": "monkeys with red shirt",
+        "IMAGE_DESCRIPTION": "In the image, there are two monkeys with red shirts. One monkey is positioned in the foreground, while the other is in the background. The monkey in the foreground is wearing a red shirt and is standing on the left side of the image. The monkey in the background is also wearing a red shirt and is positioned on the right side of the image. Both monkeys are standing on a red carpeted floor.<|im_end|>"
+    },
+    "36": {
+        "FOCUS_QUERY": "tigers drinking water",
+        "IMAGE_DESCRIPTION": "In the image, there are three tigers drinking water from a small pond. The tigers are positioned in the foreground, with one tiger in the center and the other two on the right side. The tigers are drinking water from a small pond, with the water appearing to be shallow. The tigers are drinking water from a small pond, with the water appearing to be shallow. The tigers are drinking water from a small pond, with the water appearing to be shallow. The tigers are drinking water from a small pond, with the water appearing to be shallow.<|im_end|>"
+    },
+    "37": {
+        "FOCUS_QUERY": "cat with yellow device biting another car",
+        "IMAGE_DESCRIPTION": "In the image, there are two cats, <p> cat-1 </p> [SEG] and <p> cat-2 </p> [SEG], both wearing yellow flotation devices. Cat-1 is positioned in the foreground, while cat-2 is located in the background. Cat-1 is biting cat-2, creating a playful and amusing scene.<|im_end|>"
+    },
+    "38": {
+        "FOCUS_QUERY": "horse running around man with red shirt",
+        "IMAGE_DESCRIPTION": "In the video, a brown horse is seen running around a man wearing a red shirt. The horse is positioned in the center of the image, with the man in red standing to the right of the horse. The horse is running towards the man, and the man is also running towards the horse.<|im_end|>"
+    },
+    "39": {
+        "FOCUS_QUERY": "cats playing",
+        "IMAGE_DESCRIPTION": "In the image, there are three cats playing on a cat tree. The cat tree is located in the background, and the cats are positioned in the foreground. The cat on the left is sitting, the cat in the middle is standing, and the cat on the right is also standing. The cat on the left is the furthest from the camera, while the cat on the right is the closest. The cat in the middle is standing and looking at the camera, and the cat on the right is standing and looking at the cat in the middle.<|im_end|>"
+    },
+    "40": {
+        "FOCUS_QUERY": "tied up brown cow",
+        "IMAGE_DESCRIPTION": "The image shows a brown cow tied up in a pen. The cow is tied with a rope, and it is positioned in the center of the image. The cow is also seen in the background, standing in the same pen.<|im_end|>"
+    },
+    "41": {
+        "FOCUS_QUERY": "elephant in the background",
+        "IMAGE_DESCRIPTION": "In the image, there are two elephants in an enclosure. 1. The elephant in the foreground is positioned on the left side of the image, while 2. The elephant in the background is located on the right side. 2. The elephant in the foreground is larger and has its trunk raised, while the elephant in the background is smaller and has its trunk lowered. 3. The elephant in the foreground is also seen walking, while the elephant in the background is standing.<|im_end|>"
+    },
+    "42": {
+        "FOCUS_QUERY": "tortoise trying to go out of water",
+        "IMAGE_DESCRIPTION": "In the image, there are two turtles inside a large aquarium tank. One of the turtles is trying to go out of the water, while the other is already in the water. The water is clear, and the tank is filled with water. The turtle that is trying to go out of the water is positioned towards the right side of the tank.<|im_end|>"
+    },
+    "43": {
+        "FOCUS_QUERY": "yawks fighting each other",
+        "IMAGE_DESCRIPTION": "The image shows two large animals, likely oxen, fighting each other in a field. 1. The main objects in the scene are the oxen, with one being black and the other brown. 2. The black oxen is positioned on the left side of the image, while the brown oxen are on the right. 3. The visual attribute that distinguishes them is their size and color, with the black oxen being smaller and the brown oxen being larger.<|im_end|>"
+    },
+    "44": {
+        "FOCUS_QUERY": "pandas eating food",
+        "IMAGE_DESCRIPTION": "In the image, there are four pandas sitting on the ground. The pandas are positioned in a row, with two pandas on the left side and two pandas on the right side. The pandas are eating food, with one panda holding a bowl. The bowl is placed in the center of the group. The pandas are black and white in color, and they are all eating together.<|im_end|>"
+    },
+    "45": {
+        "FOCUS_QUERY": "cows walking",
+        "IMAGE_DESCRIPTION": "In the image, there are three cows walking down a dirt road. 1. The cows are positioned in the center of the image, with one cow in the foreground and two others in the background. 2. The cow in the foreground is black, while the other two are brown. 3. The cows are walking on a dirt road, surrounded by green vegetation.<|im_end|>"
+    },
+    "47": {
+        "FOCUS_QUERY": "bulls fighting",
+        "IMAGE_DESCRIPTION": "In the image, there are two bulls fighting in a dirt arena. 1. The bulls are the main objects in the scene, with one bull on the left and the other on the right. 2. The bulls are brown in color and are seen fighting each other. 3. The bulls are positioned in the center of the image, with one bull on the left and the other on the right.<|im_end|>"
+    },
+    "48": {
+        "FOCUS_QUERY": "rabits eating grass",
+        "IMAGE_DESCRIPTION": "In the image, there are two white rabbits, <p> rabbit-1 </p> [SEG] and <p> rabbit-2 </p> [SEG], eating grass. Both rabbits are positioned in the center of the image, with rabbit-1 located in the foreground and rabbit-2 in the background. The rabbits are eating from a pile of green grass, which is located in the middle of the image.<|im_end|>"
+    },
+    "49": {
+        "FOCUS_QUERY": "tigers fighting",
+        "IMAGE_DESCRIPTION": "In the image, there are two tigers, one standing and the other on its back. The standing tiger is positioned in the foreground, while the one on its back is in the background. The standing tiger is in the center of the image, while the one on its back is in the background. The standing tiger is in the foreground, and the one on its back is in the background.<|im_end|>"
+    },
+    "50": {
+        "FOCUS_QUERY": "black horse",
+        "IMAGE_DESCRIPTION": "In the image, there are two horses, <p> horse-1 </p> [SEG] and <p> horse-2 </p> [SEG], standing on the <p> dirt </p> [SEG]. Horse-1 is positioned in front of horse-2, and they are both standing on the dirt. Horse-1 is black, while horse-2 is brown. Horse-1 is also seen with its tail hanging down, and horse-2 is standing with its tail up.<|im_end|>"
+    }
+}

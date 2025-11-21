@@ -124,7 +124,10 @@ temp_*/
 OUTPUT/
 DEV_README.md
 tmp_data/
-
+new_images
+new_images/
+qwen2.5-segmentation-finetune
+qwen2.5-segmentation-finetune/
 # Pytorch
 *.pth
 *.py~

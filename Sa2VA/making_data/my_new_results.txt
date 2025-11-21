@@ -1,0 +1,202 @@
+{
+    "1": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video captures a scene of a woman riding a horse in an open field. The woman is seen riding the horse, and the horse is trotting around the field. The woman is also seen riding a second horse, which is also trotting around the field. The horses are galloping around the field, and the woman is riding them at a fast pace. The field is surrounded by trees, and the sky is visible in the background.<|im_end|>"
+    },
+    "2": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a black car driving down a city street, passing by a large building with a sign that reads \"Hospital.\" The car is moving in the right direction, and the traffic light is green. The scene is set in a city with a clear blue sky.<|im_end|>"
+    },
+    "3": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a large grassy field with two airplanes parked on the ground. The first airplane is a large white plane, while the second one is a smaller white plane. The planes are positioned side by side, with the larger one slightly ahead of the smaller one. The scene is set in a rural area, with a few trees visible in the background. The sky is cloudy, creating a calm and serene atmosphere.<|im_end|>"
+    },
+    "4": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a group of brown bears in a grassy field, with a mountain range in the background. The bears are seen walking and interacting with each other, engaging in playful behavior. The scene captures the natural habitat of these magnificent creatures as they roam and play in the open field.<|im_end|>"
+    },
+    "5": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a scene with a group of monkeys in a zoo enclosure. One monkey is seen peeking out from a small window in a building, while another monkey is standing on a rock. The monkey peering out is looking at the camera, while the other monkey is looking away. The scene is set in a zoo enclosure with a rock wall and a tree.<|im_end|>"
+    },
+    "6": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "In the video, a person is feeding a panda with a stick to a smaller panda. The smaller panda is sitting on the ground, while the larger panda stands on its hind legs. The person is holding a bowl of food, and the smaller panda is eating it. The scene takes place in a grassy area, and there are some leaves scattered around.<|im_end|>"
+    },
+    "7": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "In the video, a group of monkeys is seen on a road. The road is surrounded by trees, and the monkeys are scattered around the area. One of the monkeys is standing on the road, while the others are on the ground. The scene is quite lively, with the monkeys interacting with each other.<|im_end|>"
+    },
+    "8": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a red bird cage with two colorful parrots inside. One parrot is blue, and the other is green. The blue parrot is perched on a stick, while the green parrot is standing on a perch. The cage is placed on a window sill, and the sunlight is shining on the birds.<|im_end|>"
+    },
+    "9": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video captures a serene scene of two turtles swimming in a body of water. The turtles are seen in close proximity to each other, with one turtle swimming in front of the other. They are both moving through the water, creating a sense of calm and tranquility. The water is clear, allowing for a clear view of the turtles and their surroundings.<|im_end|>"
+    },
+    "10": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a vibrant aquarium filled with various fish, including yellow and black striped ones. The fish are swimming around the tank, creating a lively and colorful scene. The tank is well-lit, highlighting the vivid colors of the fish and the intricate details of the aquatic environment.<|im_end|>"
+    },
+    "11": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a small black and white dog walking through a wooden hallway. The dog is seen walking towards a door, and then it enters the room. The dog appears to be exploring the space, possibly searching for something or simply moving around. The wooden hallway and the door create a cozy and warm atmosphere.<|im_end|>"
+    },
+    "12": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a monkey sitting on a rock in the middle of a body of water. The monkey is surrounded by water, and there is a rock nearby. The monkey appears to be looking at the water, possibly observing the surroundings or waiting for something.<|im_end|>"
+    },
+    "13": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video captures a close-up view of a sea turtle in its natural habitat, with a small fish swimming close to the turtle. The turtle is seen in the foreground, while the fish is positioned in the middle of the frame. The scene is set in a sandy area with some green plants, creating a serene and peaceful environment.<|im_end|>"
+    },
+    "14": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows two trucks, one yellow and one red, driving down a dirt road. The yellow truck is on the left side of the road, while the red truck is on the right. Both trucks are moving in the same direction, with the yellow truck slightly ahead of the red truck. The road is surrounded by a rocky area, and there is a mountain in the background. The scene appears to be a rural or semi-rural setting.<|im_end|>"
+    },
+    "15": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "In the video, a man is seen kneeling on the snow-covered ground, feeding a group of sheep. The sheep are gathered around him, eagerly waiting for their turn to eat. The man is holding a piece of food, which he is offering to the sheep. The scene is set in a snowy field, with a few trees visible in the background. The man appears to be enjoying the interaction with the animals, as he feeds them a meal.<|im_end|>"
+    },
+    "16": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a white rabbit in a cage, surrounded by a pile of green vegetables. The rabbit is seen eating the vegetables, and there are also some carrots visible in the scene. The rabbit appears to be enjoying its meal, and the vegetables are scattered around the cage.<|im_end|>"
+    },
+    "17": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a brown bear standing on a dirt road, with its back turned to the camera. The bear appears to be in motion, possibly walking or running. The background consists of a mountain range, providing a scenic backdrop. The bear's fur is a rich brown color, and it seems to be in a natural environment.<|im_end|>"
+    },
+    "18": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "In the video, two dogs are seen playing together on a concrete floor. One dog is black, and the other is white. They are wrestling with each other, biting and fighting. The black dog is on top of the white dog, and they are both trying to bite and push each other. The white dog is also trying to bite the black dog, and they are both engaged in a playful fight.<|im_end|>"
+    },
+    "19": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video captures a serene underwater scene with a large sea turtle swimming in a body of water. The turtle is seen moving through the water, surrounded by rocks and other sea creatures. The water is clear, allowing for a good view of the turtle and its surroundings. The turtle's movements are slow and deliberate, as it navigates through the water. The rocks in the background add to the natural beauty of the scene.<|im_end|>"
+    },
+    "20": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video captures a serene scene of two elephants, one adult and one baby, walking along a dirt path near a body of water. The adult elephant is leading the way, while the baby elephant follows closely behind. They are both walking on the muddy ground, with the adult elephant leading the way and the baby elephant following closely behind. The baby elephant is also seen playing with the adult elephant, possibly engaging in playful behavior. The scene is set in a natural environment, with trees and bushes visible in the background.<|im_end|>"
+    },
+    "21": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "In the video, a man is seen walking down a wet street with his bicycle. The street is lined with buildings, and the man is carrying his bike. He is wearing a black jacket and is walking towards the camera. The scene is set in a city environment, and the man appears to be in motion, walking with his bicycle.<|im_end|>"
+    },
+    "22": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "In the video, a young girl is seen feeding a group of rabbits through a wire fence. The rabbits are of various colors, including white, brown, and black. The girl is holding a green stick, which she uses to feed the rabbits. The scene takes place in a fenced area, with the girl kneeling on a red brick path. The interaction between the girl and the rabbits is friendly and playful, as the girl feeds the rabbits from the stick.<|im_end|>"
+    },
+    "23": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a person feeding a group of green lizards, which are likely alligators or crocodiles, from a blue container filled with water. The person is using a stick to feed the animals, and the scene takes place in a cage. The lizards are seen eating from the container, and the person is actively involved in the feeding process.<|im_end|>"
+    },
+    "24": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "In the video, a young girl is riding a pink bicycle down a street. She is wearing a blue jacket and is seen smiling while riding. The bicycle is parked on the side of the road, and there is another bicycle nearby. The scene takes place in a residential area with parked cars and a building in the background.<|im_end|>"
+    },
+    "25": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows two puppies playing with a plastic bottle on the ground. One of the puppies is seen biting the bottle, while the other is standing on the other side. The puppies are seen running around and playing with the bottle, which is placed on the grass. The playful interaction between the puppies is captured in the video, showcasing their energetic and playful nature.<|im_end|>"
+    },
+    "26": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a circus performance with a group of performers on a stage. The main focus is on a man in a green suit who is holding a ring around his neck. He is accompanied by a group of performers, including a bear and a dog, who are also holding rings. The performers are standing on a stage with a green floor, and there are stars on the ground. The performers are performing a routine, with the man in the green suit and the bear and dog performing together.<|im_end|>"
+    },
+    "27": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a person holding a plastic container with a small lizard inside. The lizard is seen moving around the container, crawling and exploring its surroundings. The person is also holding a small toy lizard, which is also moving around the container. The person is holding the toy lizard in one hand while the other hand is holding the plastic container with the small lizard inside.<|im_end|>"
+    },
+    "28": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows two dogs, one brown and one grey, playing together on a dirt ground. The brown dog is seen running around the grey dog, who is also running around. They are both moving around the area, with the brown dog chasing the grey dog. The brown dog is seen running around the grey dog, and the grey dog is also running around the brown dog. The two dogs are playing together, enjoying their time in the dirt.<|im_end|>"
+    },
+    "29": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows two monkeys, one larger and one smaller, playing in a shallow stream. The larger monkey is biting the smaller one, and they are both splashing around in the water. The smaller monkey is trying to escape from the larger one, but it is not successful. The larger monkey seems to be enjoying the playful interaction, while the smaller monkey is trying to avoid getting caught.<|im_end|>"
+    },
+    "30": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a large white airplane on a runway, with a smaller plane behind it. The larger plane is parked on the tarmac, while the smaller plane is taxiing on the runway. The scene takes place in an airport, with a cloudy sky overhead.<|im_end|>"
+    },
+    "31": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a black bear walking down a road with two brown bears following closely behind. The bears are walking on a paved road, and the black bear is leading the way. The brown bears are following closely behind the black bear, and they are walking in a line. The scene takes place in a wooded area, with trees visible in the background.<|im_end|>"
+    },
+    "32": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a group of birds inside a cage, with one bird perched on a blue platform. The cage is hanging from a ceiling, and there are other cages in the background. The birds are seen moving around the cage, and the blue platform is being used by one of the birds. The birds are in various positions, with some standing on the platform and others on the cage.<|im_end|>"
+    },
+    "33": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a vibrant aquarium filled with a variety of colorful fish swimming around. The fish come in different shades of red, orange, and pink, creating a lively and dynamic scene. The aquarium is well-lit, highlighting the vivid colors of the fish and their surroundings.<|im_end|>"
+    },
+    "34": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video captures a herd of goats walking across a concrete surface, possibly a road or a parking lot. The goats are of various sizes and are seen moving in a line, with some closer to the camera and others further away. The goats are seen in different positions, with some closer to the camera and others further away. The scene is set in an open area with grass visible in the background.<|im_end|>"
+    },
+    "35": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "In the video, a woman is seen standing in a red arena with a group of dogs. The dogs are tied to a rope, and the woman is holding the rope with one hand. The dogs are standing on a red carpet, and the woman is standing on the other side of the fence. The scene appears to be a training session or a demonstration of the dogs' obedience and training.<|im_end|>"
+    },
+    "36": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video captures a group of four tigers drinking water from a small pond. The scene takes place in a dry, rocky area with sparse vegetation. The tigers are positioned in a line, with the first tiger on the left, the second tiger in the middle, and the third tiger on the right. They are all drinking water from the pond, which is surrounded by rocks and dirt. The water appears to be clear and clean, providing a refreshing drink for the tigers.<|im_end|>"
+    },
+    "37": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "In the video, a white cat is seen sitting on a table, wearing a yellow flotation device. The cat appears to be in a playful mood, as it is holding the flotation device in its mouth. The table is located in a room with a white wall and a window. There are also some boxes and a chair in the room. The cat seems to be enjoying its time, possibly playing with the flotation device or exploring its surroundings.<|im_end|>"
+    },
+    "38": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a man in a red jacket and a woman in a black jacket walking around a horse in a field. The horse is brown in color and is seen running around the field. The man in the red jacket is seen jumping over the horse, while the woman in the black jacket is walking around the horse. The horse is seen running around the field, and the man in the red jacket is jumping over the horse.<|im_end|>"
+    },
+    "39": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a group of three grey cats in a blue room. One of the cats is standing on a cat tree, while the other two are sitting on a cat bed. The cats are interacting with each other, with one of them playing with a toy. The cat tree is located in the background, and the cat bed is placed in the foreground. The cats are all looking in the same direction, possibly towards the camera or something else in the room.<|im_end|>"
+    },
+    "40": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a brown cow tied up in a pen. The cow is standing in a muddy area, and the pen is surrounded by a fence. The cow appears to be tied up with a rope.<|im_end|>"
+    },
+    "41": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows two elephants in a zoo enclosure. One elephant is standing on the left side of the enclosure, while the other is standing on the right side. The elephants are positioned in front of a blue fence, which is enclosing the enclosure. The elephants are seen walking around the enclosure, with one of them moving closer to the camera. The scene is set in a zoo, and the elephants are the main focus of the video.<|im_end|>"
+    },
+    "42": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a pair of turtles in a clear glass aquarium tank. One turtle is positioned on the left side of the tank, while the other is on the right side. The turtles are moving around the tank, with the one on the right side appearing to be more active. The tank is filled with water, and there is a red object, possibly a toy, hanging from the top of the tank.<|im_end|>"
+    },
+    "43": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows two large animals, possibly oxen or yaks, standing in a field. They are facing each other, possibly engaging in a social interaction or a form of communication. The animals are standing on a dry, brown field, which suggests a desert-like environment. The scene is peaceful and serene, with the animals appearing calm and undisturbed.<|im_end|>"
+    },
+    "44": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video features a group of pandas gathered together, sitting on a concrete floor. They are all black and white in color, with some of them holding bowls. The pandas are seen eating and interacting with each other, creating a lively and social atmosphere.<|im_end|>"
+    },
+    "45": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a group of three cows walking down a dirt road. The cows are brown in color and are moving in a line. They are walking on a dirt path surrounded by trees and bushes. The cows are moving in a straight line, and they appear to be following each other. The scene is peaceful and serene, with the cows calmly walking along the path.<|im_end|>"
+    },
+    "46": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a group of elephants in a fenced enclosure, with a mix of adult and baby elephants. The elephants are seen playing and interacting with each other, with some of them standing on their hind legs. The enclosure is surrounded by a fence, and there are trees visible in the background. The elephants are moving around, and some of them are even standing on their front legs. The scene is lively and energetic, with the elephants engaging in playful behavior.<|im_end|>"
+    },
+    "47": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows a bullfighting event where two bulls are fighting in a dirt arena. The bulls are seen charging at each other, trying to push each other around. The bulls are brown in color, and they are fighting fiercely. The arena is surrounded by a fence, and there are people watching the event.<|im_end|>"
+    },
+    "48": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows two white rabbits eating grass in a cage. One rabbit is positioned on the left side of the cage, while the other is on the right. They are both eating the grass, which is located in the middle of the cage. The cage appears to be made of metal and is filled with grass.<|im_end|>"
+    },
+    "49": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "The video shows two tigers in a grassy field. One tiger is standing on its hind legs, while the other is on its front legs. They are both playing and wrestling with each other. The tigers are seen running around and playing together in the grass.<|im_end|>"
+    },
+    "50": {
+        "FOCUS_QUERY": "",
+        "IMAGE_DESCRIPTION": "In the video, two horses are standing next to each other in a dirt field. One horse is black, and the other is brown. They are facing each other, and the black horse is looking at the brown horse. The brown horse is also looking at the black horse. The scene takes place in a field with trees in the background.<|im_end|>"
+    }
+}
