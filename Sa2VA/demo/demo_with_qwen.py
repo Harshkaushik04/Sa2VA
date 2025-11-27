@@ -9,11 +9,7 @@ from PIL import Image
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from peft import PeftModel
 
-# Removed mmengine and matplotlib dependencies.
-# We will use manual OpenCV blending for full control.
-
-# Define a fixed palette of distinct BGR colors for objects (excluding black background)
-# Format: (Blue, Green, Red)
+# Define a fixed palette of distinct BGR colors for objects
 BGR_PALETTE = [
     (0, 0, 255),   # ID 1: Red
     (0, 255, 0),   # ID 2: Green
@@ -26,7 +22,7 @@ BGR_PALETTE = [
 ]
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='Full Pipeline: Sa2VA Description -> Qwen Reasoning -> Sa2VA Segmentation (Final Fixed Viz)')
+    parser = argparse.ArgumentParser(description='Full Pipeline: Sa2VA Description -> Qwen Reasoning -> Sa2VA Segmentation')
     parser.add_argument('image_folder', help='Path to folder containing video frames')
     parser.add_argument('--query', type=str, required=True, help='The focus query (e.g., "Woman holding blue bottle")')
     
@@ -42,6 +38,9 @@ def parse_args():
     parser.add_argument('--max_frames', type=int, default=None, help='Limit frame count (e.g. 8). Default: All frames.')
     parser.add_argument('--resize_short_edge', type=int, default=None, help='Resize short edge (e.g. 448). Default: Full res.')
     
+    # Confidence Threshold
+    parser.add_argument('--conf_threshold', type=float, default=0.5, help='Lower this (e.g. 0.1) to see faint objects.')
+
     return parser.parse_args()
 
 # --- IMAGE UTILS ---
@@ -147,7 +146,7 @@ def main():
         )
     
     video_description = result['prediction']
-    print(f"  > Description: {video_description}...")
+    print(f"  > Description: {video_description}")
     
     del sa2va_model
     gc.collect()
@@ -200,17 +199,12 @@ Image Description: {video_description}<|im_end|>
     # ==========================================
     sa2va_model, sa2va_tokenizer = load_sa2va(args.sa2va_path)
     
-    print("\n[Stage 3] Running Segmentation (Multicolor Labeling)...")
+    print(f"\n[Stage 3] Running Segmentation (Threshold: {args.conf_threshold})...")
     os.makedirs(args.work_dir, exist_ok=True)
 
-    # Get frame dimensions
-    h, w = frames[0].size[1], frames[0].size[0]
-
-    # Initialize semantic maps with zeros (background) for each frame
-    # combined_seg_maps holds the Object ID (0, 1, 2...) for each pixel
-    combined_seg_maps = {i: np.zeros((h, w), dtype=np.uint8) for i in range(len(frames))}
+    # Initialize list to store all masks independently: {frame_idx: [(mask, color), ...]}
+    all_frame_masks = {i: [] for i in range(len(frames))}
     
-    # Start object ID counter at 1 (0 is reserved for background)
     object_id = 1
     
     for key, sentence in segmentation_targets.items():
@@ -225,61 +219,61 @@ Image Description: {video_description}<|im_end|>
                 tokenizer=sa2va_tokenizer
             )
         
-        # Sa2VA returns masks as float32 (sigmoid output 0.0-1.0)
         if 'prediction_masks' in result and len(result['prediction_masks']) > 0:
             frame_masks = result['prediction_masks'][0] 
             
             for i, mask in enumerate(frame_masks):
                 if i >= len(frames): break
                 
-                # Threshold the mask at 0.5 to get boolean True/False
-                # Where True, assign the current object_id to the map.
-                # This overwrites any overlapping previous objects.
-                combined_seg_maps[i] = np.where(mask > 0.5, object_id, combined_seg_maps[i])
+                # Apply Threshold
+                binary_mask = mask > args.conf_threshold
+                
+                if binary_mask.any():
+                    # Assign Color
+                    color_bgr = BGR_PALETTE[(object_id - 1) % len(BGR_PALETTE)]
+                    # Store mask and color for this frame
+                    all_frame_masks[i].append((binary_mask, color_bgr))
+                    # print(f"    Frame {i}: Found object.")
+                else:
+                    # print(f"    Frame {i}: Low confidence.")
+                    pass
         else:
-            print(f"    Warning: No masks found for sentence ID {object_id}. Sa2VA may have failed to find this object.")
+            # print(f"    Warning: No masks found for sentence ID {object_id}.")
+            pass
             
-        # Increment ID for the next sentence/object
         object_id += 1
 
     # ==========================================
-    # STAGE 4: Save Final Visualizations (FIXED)
+    # STAGE 4: Save Final Visualizations (Layered)
     # ==========================================
-    print("\n[Stage 4] Saving results (Manual OpenCV Blending)...")
+    print("\n[Stage 4] Saving results (Layered Contours)...")
 
     for i, frame_path in enumerate(processed_paths):
-        seg_map = combined_seg_maps[i]
-        # Convert PIL RGB frame to OpenCV BGR format
+        # Start with original image
         img_bgr = np.array(frames[i])[:, :, ::-1].copy()
+        
+        # Create a copy for the transparent fill
+        overlay = img_bgr.copy()
+        
+        masks_in_frame = all_frame_masks[i]
+        
+        if masks_in_frame:
+            # 1. Draw Fills
+            for mask, color in masks_in_frame:
+                overlay[mask] = color
+            
+            # Blend fills (0.5 opacity)
+            cv2.addWeighted(overlay, 0.5, img_bgr, 0.5, 0, img_bgr)
+            
+            # 2. Draw Contours (Solid Lines) on top
+            # This ensures small objects are visible even if fills overlap
+            for mask, color in masks_in_frame:
+                # Convert boolean mask to uint8 for contour finding
+                mask_uint8 = mask.astype(np.uint8) * 255
+                contours, _ = cv2.findContours(mask_uint8, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+                # Draw contour with thickness 2
+                cv2.drawContours(img_bgr, contours, -1, color, 2)
 
-        # Check if any objects were detected in this frame
-        unique_ids = np.unique(seg_map)
-        has_objects = len(unique_ids) > 1 or (len(unique_ids) == 1 and unique_ids[0] != 0)
-
-        if has_objects:
-            # Create a copy of the image to paint solid colors on
-            overlay_img = img_bgr.copy()
-
-            for uid in unique_ids:
-                if uid == 0: continue # Skip background
-
-                # Get BGR color cyclically from fixed palette based on ID
-                # Use (uid-1) so ID 1 gets index 0 (Red)
-                color_bgr = BGR_PALETTE[(uid - 1) % len(BGR_PALETTE)]
-
-                # Find pixels belonging to this object ID
-                obj_mask = (seg_map == uid)
-
-                # Paint solid color onto the overlay image wherever mask is True
-                overlay_img[obj_mask] = color_bgr
-
-            # Blend the original image and the painted overlay
-            # alpha=0.6 means: 60% Original Image + 40% Painted Overlay
-            # Background areas blend with themselves (no change). Object areas become transparently colored.
-            alpha = 0.6
-            cv2.addWeighted(img_bgr, alpha, overlay_img, 1 - alpha, 0, img_bgr)
-
-        # Save final image (either unchanged original, or blended result)
         output_filename = f"seg_{os.path.basename(frame_path)}"
         output_path = os.path.join(args.work_dir, output_filename)
         cv2.imwrite(output_path, img_bgr)

@@ -15,7 +15,7 @@ from trl import SFTTrainer
 # ==============================
 MODEL_NAME = "Qwen/Qwen2.5-3B-Instruct"  # The 3B model (~6.2GB)
 OUTPUT_DIR = "./qwen2.5-segmentation-finetune"
-DATA_FILE = "/home/harsh/AI/Sa2VA/Sa2VA/finetune_qwen/training_data/train_250.json"  # <--- Ensure your JSON file is named this
+DATA_FILE = "/home/harsh/AI/Sa2VA/Sa2VA/finetune_qwen/training_data/train_257.json"  # <--- Ensure your JSON file is named this
 
 # ==============================
 # 2. DATA PREPARATION
